@@ -1,0 +1,156 @@
+.header .nav-menu {
+  height: 142px;
+  padding: 21px 0;
+  border-radius: 0;
+  background-color: #FFF;
+  box-shadow: 0 4px 13px 0 rgba(0, 255, 163, 0.15);
+  transition: all 0.3s ease; }
+  .header .nav-menu.is-scrolling {
+    padding: 0;
+    height: 100px; }
+    .header .nav-menu.is-scrolling .navbar {
+      padding: 0 1rem; }
+      .header .nav-menu.is-scrolling .navbar .navbar-brand img {
+        width: 170px; }
+        @media (min-width: 1600px) {
+          .header .nav-menu.is-scrolling .navbar .navbar-brand img {
+            width: 200px; } }
+  .header .nav-menu .navbar {
+    padding: 0 1rem; }
+    .header .nav-menu .navbar .navbar-brand {
+      height: auto;
+      outline: 0;
+      padding: 30px 15px 30px 60px; }
+      .header .nav-menu .navbar .navbar-brand img {
+        width: 200px; }
+        @media (min-width: 1600px) {
+          .header .nav-menu .navbar .navbar-brand img {
+            width: 300px; } }
+    .header .nav-menu .navbar .navbar-collapse {
+      max-height: none; }
+      .header .nav-menu .navbar .navbar-collapse .navbar-nav {
+        position: relative;
+        margin-bottom: 0; }
+        .header .nav-menu .navbar .navbar-collapse .navbar-nav li {
+          text-align: center;
+          width: auto; }
+          .header .nav-menu .navbar .navbar-collapse .navbar-nav li:last-child {
+            margin-right: 0; }
+          .header .nav-menu .navbar .navbar-collapse .navbar-nav li a {
+            color: #0000ff;
+            font-size: 0.8rem;
+            position: relative;
+            font-weight: 500;
+            font-style: normal;
+            font-stretch: normal;
+            line-height: normal;
+            letter-spacing: normal;
+            text-align: center;
+            padding: 20px 15px;
+            text-transform: uppercase; }
+            @media (min-width: 1600px) {
+              .header .nav-menu .navbar .navbar-collapse .navbar-nav li a {
+                font-size: 1vw; } }
+            .header .nav-menu .navbar .navbar-collapse .navbar-nav li a:hover, .header .nav-menu .navbar .navbar-collapse .navbar-nav li a:focus {
+              background-color: transparent; }
+            .header .nav-menu .navbar .navbar-collapse .navbar-nav li a.active {
+              color: #00ffa3; }
+              .header .nav-menu .navbar .navbar-collapse .navbar-nav li a.active:after {
+                content: "";
+                border-bottom: 1px solid #00ffa3;
+                left: 1rem;
+                right: 1rem;
+                bottom: 5px;
+                height: 1px;
+                position: absolute; }
+
+body {
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+  position: relative;
+  color: #0000ff; }
+
+.section {
+  padding-top: 140px; }
+
+#home {
+  padding: 180px 0 60px 0;
+  overflow: hidden; }
+  #home .who-text {
+    width: 35%;
+    position: absolute;
+    left: 10%; }
+    #home .who-text span {
+      font-size: 5.75vw;
+      font-weight: 800; }
+  #home .lines img {
+    display: block;
+    width: 80%;
+    float: right;
+    margin-right: -150px; }
+
+#who {
+  width: 100%; }
+  #who .who-we-are {
+    background-color: #0000ff;
+    padding: 80px 0; }
+    #who .who-we-are .h1-wrapper {
+      width: 140px;
+      height: 35px;
+      margin-left: 76px;
+      position: relative;
+      margin-bottom: 44px; }
+      #who .who-we-are .h1-wrapper h1 {
+        position: absolute;
+        color: #FFF;
+        padding: 0 0 10px;
+        font-size: 1vw; }
+        #who .who-we-are .h1-wrapper h1:after {
+          content: "";
+          border-bottom: 1px solid #FFF;
+          left: 0;
+          right: 0;
+          bottom: 5px;
+          height: 1px;
+          position: absolute; }
+    #who .who-we-are span {
+      color: #FFF;
+      width: 32%;
+      padding-left: 76px;
+      font-size: 2vw;
+      text-transform: uppercase;
+      font-weight: 800;
+      display: block; }
+  #who .group-of-chengemakers {
+    padding-top: 60px; }
+    #who .group-of-chengemakers .image-wrapper {
+      width: 50%;
+      float: left; }
+      #who .group-of-chengemakers .image-wrapper img {
+        width: 100%; }
+    #who .group-of-chengemakers .text-wrapper {
+      width: 50%;
+      float: right; }
+      #who .group-of-chengemakers .text-wrapper span {
+        padding-left: 25px;
+        font-size: 2vw;
+        font-weight: 800;
+        display: block;
+        line-height: 1.5vw; }
+        #who .group-of-chengemakers .text-wrapper span.top {
+          padding-bottom: 8%; }
+        #who .group-of-chengemakers .text-wrapper span.bottom {
+          line-height: 2vw; }
+
+.footer {
+  background-color: #eeeeee;
+  margin-top: 32px; }
+  .footer .footer-text {
+    color: #000;
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 13px;
+    opacity: .54;
+    padding: 20px 40px; }
+
+/*# sourceMappingURL=styles.css.map */

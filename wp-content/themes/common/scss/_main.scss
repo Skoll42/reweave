@@ -1,0 +1,108 @@
+body {
+	font-family: $main-font;
+	font-weight: 500;
+	position: relative;
+	color: #0000ff;
+}
+
+.section {
+	padding-top: 140px;
+}
+
+#home {
+	padding: 180px 0 60px 0;
+	overflow: hidden;
+	.who-text {
+		width: 35%;
+		position: absolute;
+		left: 10%;
+		span {
+			font-size: 5.75vw;
+			font-weight: 800;
+		}
+	}
+	.lines {
+		img {
+			display: block;
+			width: 80%;
+			float: right;
+			margin-right: -150px;
+		}
+	}
+}
+
+#who {
+	width: 100%;
+	.who-we-are {
+		background-color: #0000ff;
+		padding: 80px 0;
+
+		.h1-wrapper {
+			width: 140px;
+			height: 35px;
+			margin-left: 76px;
+			position: relative;
+			margin-bottom: 44px;
+
+			h1 {
+				position: absolute;
+				color: #FFF;
+				padding: 0 0 10px;
+				font-size: 1vw;
+
+				&:after {
+					content: "";
+					border-bottom: 1px solid #FFF;
+					left: 0;
+					right: 0;
+					bottom: 5px;
+					height: 1px;
+					position: absolute;
+				}
+			}
+		}
+
+
+		span {
+			color: #FFF;
+			width: 32%;
+			padding-left: 76px;
+			font-size: 2vw;
+			text-transform: uppercase;
+			font-weight: 800;
+			display: block;
+		}
+	}
+
+	.group-of-chengemakers {
+		padding-top: 60px;
+		.image-wrapper {
+			width: 50%;
+			float: left;
+
+			img {
+				width: 100%;
+			}
+		}
+
+		.text-wrapper {
+			width: 50%;
+			float: right;
+			span {
+				padding-left: 25px;
+				font-size: 2vw;
+				font-weight: 800;
+				display: block;
+				line-height: 1.5vw;
+
+				&.top {
+					padding-bottom: 8%;
+				}
+
+				&.bottom {
+					line-height: 2vw;
+				}
+			}
+		}
+	}
+}
