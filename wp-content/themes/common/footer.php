@@ -1,9 +1,14 @@
 <div class="footer">
-	<div class="container">
-		<div class="row">
-			<div class="footer-text">Reweave </div>
-		</div>
-	</div>
+    <div class="left">
+        <span>ADRESS ADRESS ADRESS</span>
+        <span>CITY CITY</span>
+        <span>+5647843392</span>
+    </div>
+    <div class="right">
+        <a href="reveave.enviu.org" target="_blank">reveave.enviu.org</a>
+        <a href="enviu.org" target="_blank">enviu.org</a>
+    </div>
+    <div class="clearfix"></div>
 </div>
 
 <script

@@ -1,12 +1,29 @@
 .footer {
-    background-color: #eeeeee;
-    margin-top: 32px;
-    .footer-text {
-        color: #000;
-        font-size: 13px;
-        font-weight: 400;
-        line-height: 13px;
-        opacity: .54;
-        padding: 20px 40px;
+    background-color: #0000ff;
+    padding-bottom: 30px;
+    color: #FFF;
+    font-weight: 500;
+    font-size: 2vw;
+
+    .left {
+        padding-top: 60px;
+        float: left;
+        padding-left: 76px;
+        span {
+            display: block;
+        }
+
+    }
+    .right {
+        float: right;
+        padding-top: 60px;
+        padding-right: 76px;
+        a {
+            display: block;
+            color: #FFF;
+            &:hover, &:active {
+                color: #FFF;
+            }
+        }
     }
 }
