@@ -10,39 +10,42 @@ body {
 }
 
 #home {
-	padding: 180px 0 60px 0;
+	padding: 140px 0 0 60px;
 	overflow: hidden;
 	.who-text {
-		width: 35%;
+		width: 50%;
+		top: 205px;
 		position: absolute;
-		left: 10%;
 		span {
 			font-size: 5.75vw;
 			font-weight: 800;
+			text-transform: uppercase;
 		}
 	}
 	.lines {
 		img {
 			display: block;
-			width: 80%;
+			width: 83%;
+			height: 83%;
 			float: right;
-			margin-right: -150px;
+			margin-right: -95px;
 		}
 	}
 }
 
 #who {
 	width: 100%;
+	padding-top: 90px;
 	.who-we-are {
 		background-color: #0000ff;
-		padding: 80px 0;
+		padding: 40px 0;
 
 		.h1-wrapper {
 			width: 140px;
 			height: 35px;
-			margin-left: 76px;
+			margin-left: 60px;
 			position: relative;
-			margin-bottom: 44px;
+			margin-bottom: 10px;
 
 			h1 {
 				position: absolute;
@@ -65,9 +68,9 @@ body {
 
 		span {
 			color: #FFF;
-			width: 32%;
-			padding-left: 76px;
-			font-size: 2vw;
+			width: 41%;
+			margin-left: 60px;
+			font-size: 2.2vw;
 			text-transform: uppercase;
 			font-weight: 800;
 			display: block;
@@ -75,28 +78,28 @@ body {
 	}
 
 	.group-of-chengemakers {
-		padding-top: 60px;
+		padding-top: 30px;
 		.image-wrapper {
-			width: 50%;
+			width: 48%;
 			float: left;
 
 			img {
 				width: 100%;
+				margin-left: -42px;
 			}
 		}
 
 		.text-wrapper {
-			width: 50%;
+			width: 52%;
 			float: right;
 			span {
-				padding-left: 25px;
-				font-size: 2vw;
+				font-size: 2.2vw;
 				font-weight: 800;
 				display: block;
 				line-height: 1.5vw;
 
 				&.top {
-					padding-bottom: 8%;
+					padding-bottom: 7%;
 				}
 
 				&.bottom {
@@ -106,7 +109,7 @@ body {
 		}
 	}
 	.experts {
-		margin: 100px 76px;
+		margin: 60px 0 32px 124px;
 		.quarter-block {
 			width: 25%;
 			float: left;
@@ -114,7 +117,7 @@ body {
 			.image {
 				.bg-over {
 					width: 100%;
-					padding: 0 26% 0 0;
+					padding: 0 35% 0 0;
 
 					&:before {
 						content: "";
@@ -170,63 +173,34 @@ body {
 					}
 				}
 			}
-			&:nth-child(2), &:nth-child(3) {
-				.image {
-					.bg-over {
-						padding: 0 13%;
-					}
-				}
-
-			}
-
-			&:nth-child(4) {
-				float: right;
-
-				.image {
-					.bg-over {
-						padding: 0 0 0 26%;
-					}
-				}
-			}
 
 			.text {
-				padding-right: 26%;
+				padding-right: 20%;
 				padding-top: 15%;
-			}
-
-			&:nth-child(2), &:nth-child(3) {
-				.text {
-					padding: 15% 13% 0 13%;
-				}
-			}
-
-			&:nth-child(4) {
-				.text {
-					padding-left: 26%;
-					padding-right: 0;
-				}
+				font-size: 1vw;
 			}
 		}
-
-		.lines {
-			padding-top: 12%;
-			float: right;
-			width: 40%;
-			img {
-				display: block;
-			}
+	}
+	.lines {
+		overflow: hidden;
+		padding-top: 3%;
+		float: right;
+		width: 40%;
+		img {
+			display: block;
 		}
 	}
 }
 
 #what {
+	padding-top: 130px;
 	.what-we-are-doing {
 		.h1-wrapper {
 			width: 224px;
 			height: 35px;
-			margin-left: 76px;
+			margin-left: 60px;
 			position: relative;
-			margin-bottom: 44px;
+			margin-bottom: 20px;
 
 			h1 {
 				position: absolute;
@@ -248,7 +222,7 @@ body {
 	}
 
 	.experts {
-		margin: 100px 76px;
+		margin: 0 0 32px 124px;
 		.quarter-block {
 			width: 25%;
 			float: left;
@@ -256,7 +230,7 @@ body {
 			.image {
 				.bg-over {
 					width: 100%;
-					padding: 0 26% 0 0;
+					padding: 0 35% 0 0;
 
 					&:before {
 						content: "";
@@ -333,62 +307,32 @@ body {
 				}
 			}
 
-			&:nth-child(2), &:nth-child(3) {
-				.image {
-					.bg-over {
-						padding: 0 13%;
-					}
-				}
-
-			}
-
-			&:nth-child(4) {
-				float: right;
-
-				.image {
-					.bg-over {
-						padding: 0 0 0 26%;
-					}
-				}
-			}
-
 			.text {
-				padding-right: 26%;
+				padding-right: 20%;
 				padding-top: 15%;
-			}
-
-			&:nth-child(2), &:nth-child(3) {
-				.text {
-					padding: 15% 13% 0 13%;
-				}
-			}
-
-			&:nth-child(4) {
-				.text {
-					padding-left: 26%;
-					padding-right: 0;
-				}
+				font-size: 1vw;
 			}
 		}
-
-		.lines {
-			padding-top: 12%;
-			float: right;
-			width: 40%;
-			img {
-				display: block;
-			}
+	}
+	.lines {
+		overflow: hidden;
+		padding-top: 3%;
+		float: right;
+		width: 40%;
+		img {
+			display: block;
 		}
 	}
 }
 
 #methodology {
+	padding-top: 130px;
 	.h1-wrapper {
 		width: 224px;
 		height: 35px;
-		margin-left: 76px;
+		margin-left: 60px;
 		position: relative;
-		margin-bottom: 44px;
+		margin-bottom: 10px;
 
 		h1 {
 			position: absolute;
@@ -408,59 +352,49 @@ body {
 		}
 	}
 	.wrapper {
-		padding-left: 76px;
+		padding-left: 60px;
 
 		.half-block {
 			width: 50%;
 			float: left;
+			padding-right: 70px;
+		}
 
-			&:nth-child(2) {
-				.title {
-					width: 404px;
-				}
-			}
+		.left-block {
+			width: 60%;
+			float: left;
+		}
+		.right-block {
+			width: 40%;
+			float: right;
 		}
 
 		.title {
-			width: 280px;
-			height: 100px;
-			position: relative;
-			margin-bottom: 44px;
+			border-bottom: 2px solid #0000ff;
 
 			h1 {
-				position: absolute;
 				color: #0000ff;
-				padding: 0 0 10px;
-				font-size: 2vw;
+				font-size: 2.3vw;
 				font-weight: 800;
-
-				&:after {
-					content: "";
-					border-bottom: 2px solid #0000ff;
-					left: 0;
-					right: 0;
-					bottom: 5px;
-					height: 1px;
-					position: absolute;
-				}
 			}
-
 		}
 
 		.text {
-
+			font-size: 1vw;
+			padding-top: 20px;
 		}
 
 	}
 }
 
 #why {
+	padding-top: 130px;
 	.h1-wrapper {
 		width: 251px;
 		height: 35px;
-		margin-left: 76px;
+		margin-left: 60px;
 		position: relative;
-		margin-bottom: 44px;
+		margin-bottom: 10px;
 
 		h1 {
 			position: absolute;
@@ -481,7 +415,7 @@ body {
 	}
 
 	.with {
-		padding-left: 76px;
+		padding-left: 60px;
 		margin-bottom: 70px;
 
 		.half-block {
@@ -504,39 +438,45 @@ body {
 		}
 	}
 	.experts {
-		margin: 100px 76px;
+		margin: 30px 124px 32px 124px;
 		.tetra-block {
 			width: 20%;
 			float: left;
-			padding: 0 30px;
 
-			.image {
-				img {
-					max-height: 250px;
-					min-height: 250px;
+			.wrapper {
+				width: 100%;
+
+				.image {
+					img {
+						max-height: 150px;
+						min-height: 150px;
+						width: 55%;
+					}
 				}
-			}
 
-			.text {
-				margin-top: 60px;
+				.text {
+					margin-top: 20px;
+					font-size: 1vw;
+					padding-right: 20%;
+				}
 			}
 		}
 	}
 }
 
 #dream {
+	padding-top: 62px;
 	.dream {
 		float: left;
 		width: 40%;
 		background-color: #0000ff;
-		padding: 80px 0;
+		padding: 65px 0;
 
 		.h1-wrapper {
 			width: 140px;
 			height: 35px;
-			margin-left: 76px;
+			margin-left: 60px;
 			position: relative;
-			margin-bottom: 44px;
 
 			h1 {
 				position: absolute;
@@ -560,7 +500,7 @@ body {
 		span {
 			color: #FFF;
 			width: 90%;
-			padding-left: 76px;
+			padding-left: 60px;
 			font-size: 2vw;
 			text-transform: uppercase;
 			font-weight: 800;
@@ -589,38 +529,14 @@ body {
 }
 
 #join {
-	padding: 180px 0 60px 0;
+	padding-top: 140px;
 	overflow: hidden;
 
-	.h1-wrapper {
-		width: 140px;
-		height: 35px;
-		margin-left: 76px;
-		position: relative;
-		margin-bottom: 44px;
-
-		h1 {
-			position: absolute;
-			color: #00ffa3;
-			padding: 0 0 10px;
-			font-size: 1vw;
-
-			&:after {
-				content: "";
-				border-bottom: 1px solid #00ffa3;
-				left: 0;
-				right: 0;
-				bottom: 5px;
-				height: 1px;
-				position: absolute;
-			}
-		}
-	}
-
 	.who-text {
-		width: 40%;
+		padding-left: 60px;
+		width: 65%;
+		top: 205px;
 		position: absolute;
-		left: 10%;
 		span {
 			font-size: 5.75vw;
 			font-weight: 800;
@@ -629,29 +545,27 @@ body {
 	.lines {
 		img {
 			display: block;
-			width: 80%;
+			width: 83%;
+			height: 83%;
 			float: right;
-			margin-right: -150px;
+			margin-right: -95px;
 		}
 	}
 
 
 	.partner {
-		margin-top: 70px;
-		height: 142px;
+		margin-top: 40px;
 		background: #0000ff;
 		position: relative;
 		.wrapper {
-			width: 100%;
+			width: 60%;
 			padding: 0;
-			position: absolute;
-			margin: -1.5vw 0 0 -36vw;
-			top: 50%;
-			left: 50%;
+			margin: 0 auto;
 			.email {
 				float: left;
 				svg {
 					height: 65px;
+					padding: 15px 0;
 					fill: #FFF;
 					vertical-align: middle;
 				}
@@ -660,8 +574,9 @@ body {
 				color: #FFF;
 				float: left;
 				font-weight: 800;
-				font-size: 2vw;
+				font-size: 1.5vw;
 				margin-left: 2%;
+				padding-top: 18px;
 			}
 		}
 	}

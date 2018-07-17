@@ -4,7 +4,7 @@
     <meta charset="utf-8">
     <meta content="IE=edge" http-equiv="X-UA-Compatible">
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no, shrink-to-fit=no">
-	<link href="https://fonts.googleapis.com/css?family=Poppins:100,200,300,500,700" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Poppins:100,200,300,500,700,800" rel="stylesheet">
 	<link rel="stylesheet" type="text/css" href="<?php echo get_stylesheet_directory_uri(); ?>/css/bootstrap.min.css?ver=<?php echo time();?>">
 	<link rel="stylesheet" type="text/css" href="<?php echo get_stylesheet_directory_uri(); ?>/css/styles.css?ver=<?php echo time();?>">
     <title><?php wp_title(''); ?></title>
@@ -20,15 +20,12 @@
                     <img src="<?php echo get_stylesheet_directory_uri();?>/img/logo.svg" />
                 </a>
                 <div class="collapse navbar-collapse" id="navbar">
-                    <ul class="navbar-nav ml-auto">
-                        <li class="nav-item"> <a class="nav-link" href="#home">HOME <span class="sr-only">(current)</span></a> </li>
-                        <li class="nav-item"> <a class="nav-link" href="#who">WHO WE ARE</a> </li>
-                        <li class="nav-item"> <a class="nav-link" href="#methodology">OUR METHODOLOGY</a> </li>
-                        <li class="nav-item"> <a class="nav-link" href="#what">WHAT WE ARE DOING</a> </li>
-                        <li class="nav-item"> <a class="nav-link" href="#why">WHY IS THIS NEEDED</a> </li>
-                        <li class="nav-item"> <a class="nav-link" href="#dream">OUR DREAM</a> </li>
-                        <li class="nav-item"> <a class="nav-link" href="#join">JOIN US</a> </li>
-                    </ul>
+                    <?php wp_nav_menu( array(
+                        'walker' => new Reweave_Walker_Nav_Menu,
+                        'theme_location' => 'header-menu',
+                        'menu_class' => 'navbar-nav ml-auto',
+                        'container' => false,
+                    ) ); ?>
                 </div>
             </nav>
         </div>

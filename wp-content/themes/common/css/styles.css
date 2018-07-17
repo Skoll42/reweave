@@ -1,33 +1,40 @@
 .header .nav-menu {
-  height: 142px;
-  padding: 21px 0;
+  height: 96px;
   border-radius: 0;
   background-color: #FFF;
   box-shadow: 0 4px 13px 0 rgba(0, 255, 163, 0.15);
   transition: all 0.3s ease; }
   .header .nav-menu.is-scrolling {
-    padding: 0;
-    height: 100px; }
+    padding: 0 0 0 60px;
+    height: 50px; }
     .header .nav-menu.is-scrolling .navbar {
-      padding: 0 1rem; }
-      .header .nav-menu.is-scrolling .navbar .navbar-brand img {
-        width: 170px; }
-        @media (min-width: 1600px) {
-          .header .nav-menu.is-scrolling .navbar .navbar-brand img {
-            width: 200px; } }
+      padding: 0; }
+      .header .nav-menu.is-scrolling .navbar .navbar-brand {
+        padding: 10px 15px 30px 0; }
+        .header .nav-menu.is-scrolling .navbar .navbar-brand img {
+          width: 170px; }
+          @media (min-width: 1600px) {
+            .header .nav-menu.is-scrolling .navbar .navbar-brand img {
+              width: 200px; } }
+      .header .nav-menu.is-scrolling .navbar .navbar-collapse {
+        margin-top: -20px; }
+        .header .nav-menu.is-scrolling .navbar .navbar-collapse .navbar-nav li a {
+          padding: 5px 32px 0 0; }
   .header .nav-menu .navbar {
-    padding: 0 1rem; }
+    padding: 0 0 0 60px; }
     .header .nav-menu .navbar .navbar-brand {
       height: auto;
       outline: 0;
-      padding: 30px 15px 30px 60px; }
+      padding: 34px 15px 30px 0;
+      transition: all 0.3s ease; }
       .header .nav-menu .navbar .navbar-brand img {
-        width: 200px; }
+        width: 195px; }
         @media (min-width: 1600px) {
           .header .nav-menu .navbar .navbar-brand img {
             width: 300px; } }
     .header .nav-menu .navbar .navbar-collapse {
-      max-height: none; }
+      max-height: none;
+      transition: all 0.3s ease; }
       .header .nav-menu .navbar .navbar-collapse .navbar-nav {
         position: relative;
         margin-bottom: 0; }
@@ -37,6 +44,7 @@
           .header .nav-menu .navbar .navbar-collapse .navbar-nav li:last-child {
             margin-right: 0; }
           .header .nav-menu .navbar .navbar-collapse .navbar-nav li a {
+            transition: all 0.3s ease;
             color: #0000ff;
             font-size: 0.8rem;
             position: relative;
@@ -46,23 +54,17 @@
             line-height: normal;
             letter-spacing: normal;
             text-align: center;
-            padding: 20px 15px;
+            padding: 36px 32px 20px 0;
             text-transform: uppercase; }
             @media (min-width: 1600px) {
               .header .nav-menu .navbar .navbar-collapse .navbar-nav li a {
                 font-size: 1vw; } }
             .header .nav-menu .navbar .navbar-collapse .navbar-nav li a:hover, .header .nav-menu .navbar .navbar-collapse .navbar-nav li a:focus {
-              background-color: transparent; }
-            .header .nav-menu .navbar .navbar-collapse .navbar-nav li a.active {
-              color: #00ffa3; }
-              .header .nav-menu .navbar .navbar-collapse .navbar-nav li a.active:after {
-                content: "";
-                border-bottom: 1px solid #00ffa3;
-                left: 1rem;
-                right: 1rem;
-                bottom: 5px;
-                height: 1px;
-                position: absolute; }
+              background-color: transparent;
+              text-decoration: none; }
+          .header .nav-menu .navbar .navbar-collapse .navbar-nav li.current-menu-item span {
+            color: #00ffa3;
+            border-bottom: 1px solid #00ffa3; }
 
 body {
   font-family: "Poppins", sans-serif;
@@ -74,32 +76,35 @@ body {
   padding-top: 140px; }
 
 #home {
-  padding: 180px 0 60px 0;
+  padding: 140px 0 0 60px;
   overflow: hidden; }
   #home .who-text {
-    width: 35%;
-    position: absolute;
-    left: 10%; }
+    width: 50%;
+    top: 205px;
+    position: absolute; }
     #home .who-text span {
       font-size: 5.75vw;
-      font-weight: 800; }
+      font-weight: 800;
+      text-transform: uppercase; }
   #home .lines img {
     display: block;
-    width: 80%;
+    width: 83%;
+    height: 83%;
     float: right;
-    margin-right: -150px; }
+    margin-right: -95px; }
 
 #who {
-  width: 100%; }
+  width: 100%;
+  padding-top: 90px; }
   #who .who-we-are {
     background-color: #0000ff;
-    padding: 80px 0; }
+    padding: 40px 0; }
     #who .who-we-are .h1-wrapper {
       width: 140px;
       height: 35px;
-      margin-left: 76px;
+      margin-left: 60px;
       position: relative;
-      margin-bottom: 44px; }
+      margin-bottom: 10px; }
       #who .who-we-are .h1-wrapper h1 {
         position: absolute;
         color: #FFF;
@@ -115,40 +120,40 @@ body {
           position: absolute; }
     #who .who-we-are span {
       color: #FFF;
-      width: 32%;
-      padding-left: 76px;
-      font-size: 2vw;
+      width: 41%;
+      margin-left: 60px;
+      font-size: 2.2vw;
       text-transform: uppercase;
       font-weight: 800;
       display: block; }
   #who .group-of-chengemakers {
-    padding-top: 60px; }
+    padding-top: 30px; }
     #who .group-of-chengemakers .image-wrapper {
-      width: 50%;
+      width: 48%;
       float: left; }
       #who .group-of-chengemakers .image-wrapper img {
-        width: 100%; }
+        width: 100%;
+        margin-left: -42px; }
     #who .group-of-chengemakers .text-wrapper {
-      width: 50%;
+      width: 52%;
       float: right; }
       #who .group-of-chengemakers .text-wrapper span {
-        padding-left: 25px;
-        font-size: 2vw;
+        font-size: 2.2vw;
         font-weight: 800;
         display: block;
         line-height: 1.5vw; }
         #who .group-of-chengemakers .text-wrapper span.top {
-          padding-bottom: 8%; }
+          padding-bottom: 7%; }
         #who .group-of-chengemakers .text-wrapper span.bottom {
           line-height: 2vw; }
   #who .experts {
-    margin: 100px 76px; }
+    margin: 60px 0 32px 124px; }
     #who .experts .quarter-block {
       width: 25%;
       float: left; }
       #who .experts .quarter-block .image .bg-over {
         width: 100%;
-        padding: 0 26% 0 0; }
+        padding: 0 35% 0 0; }
         #who .experts .quarter-block .image .bg-over:before {
           content: "";
           display: block;
@@ -186,269 +191,32 @@ body {
         margin-bottom: -100%; }
       #who .experts .quarter-block:nth-child(1) .image .bg-over .bg-text, #who .experts .quarter-block:nth-child(2) .image .bg-over .bg-text {
         margin-top: -1.2em; }
-      #who .experts .quarter-block:nth-child(2) .image .bg-over, #who .experts .quarter-block:nth-child(3) .image .bg-over {
-        padding: 0 13%; }
-      #who .experts .quarter-block:nth-child(4) {
-        float: right; }
-        #who .experts .quarter-block:nth-child(4) .image .bg-over {
-          padding: 0 0 0 26%; }
       #who .experts .quarter-block .text {
-        padding-right: 26%;
-        padding-top: 15%; }
-      #who .experts .quarter-block:nth-child(2) .text, #who .experts .quarter-block:nth-child(3) .text {
-        padding: 15% 13% 0 13%; }
-      #who .experts .quarter-block:nth-child(4) .text {
-        padding-left: 26%;
-        padding-right: 0; }
-    #who .experts .lines {
-      padding-top: 12%;
-      float: right;
-      width: 40%; }
-      #who .experts .lines img {
-        display: block; }
-
-#what .what-we-are-doing .h1-wrapper {
-  width: 224px;
-  height: 35px;
-  margin-left: 76px;
-  position: relative;
-  margin-bottom: 44px; }
-  #what .what-we-are-doing .h1-wrapper h1 {
-    position: absolute;
-    color: #00ffa3;
-    padding: 0 0 10px;
-    font-size: 1vw; }
-    #what .what-we-are-doing .h1-wrapper h1:after {
-      content: "";
-      border-bottom: 1px solid #00ffa3;
-      left: 0;
-      right: 0;
-      bottom: 5px;
-      height: 1px;
-      position: absolute; }
-#what .experts {
-  margin: 100px 76px; }
-  #what .experts .quarter-block {
-    width: 25%;
-    float: left; }
-    #what .experts .quarter-block .image .bg-over {
-      width: 100%;
-      padding: 0 26% 0 0; }
-      #what .experts .quarter-block .image .bg-over:before {
-        content: "";
-        display: block;
-        width: 100%;
-        height: 0;
-        padding-bottom: 100%;
-        background: #0000ff;
-        -moz-border-radius: 50%;
-        -webkit-border-radius: 50%;
-        border-radius: 50%;
-        margin-bottom: -100%; }
-      #what .experts .quarter-block .image .bg-over:after {
-        content: "";
-        display: block;
-        width: 96%;
-        height: 0;
-        padding: 48%;
-        margin: 2% 0% 5% 2%;
-        background: #FFF;
-        -moz-border-radius: 50%;
-        -webkit-border-radius: 50%;
-        border-radius: 50%; }
-      #what .experts .quarter-block .image .bg-over .bg-text {
-        float: left;
-        width: 100%;
-        padding-top: 50%;
-        line-height: 2.7vw;
-        font-size: 2vw;
-        margin-top: -0.7em;
-        text-align: center;
-        font-weight: 800;
-        color: #0000ff;
-        text-transform: uppercase; }
-    #what .experts .quarter-block .image .bg-under {
-      margin-bottom: -100%; }
-    #what .experts .quarter-block:nth-child(1) .image .bg-over .bg-text {
-      margin-top: -0.5em; }
-    #what .experts .quarter-block:nth-child(2) .image .bg-over .bg-text, #what .experts .quarter-block:nth-child(4) .image .bg-over .bg-text {
-      margin-top: -1.8em; }
-    #what .experts .quarter-block:nth-child(3) .image .bg-over .bg-text {
-      margin-top: -1.2em; }
-    #what .experts .quarter-block:nth-child(2) .image .bg-over, #what .experts .quarter-block:nth-child(3) .image .bg-over {
-      padding: 0 13%; }
-    #what .experts .quarter-block:nth-child(4) {
-      float: right; }
-      #what .experts .quarter-block:nth-child(4) .image .bg-over {
-        padding: 0 0 0 26%; }
-    #what .experts .quarter-block .text {
-      padding-right: 26%;
-      padding-top: 15%; }
-    #what .experts .quarter-block:nth-child(2) .text, #what .experts .quarter-block:nth-child(3) .text {
-      padding: 15% 13% 0 13%; }
-    #what .experts .quarter-block:nth-child(4) .text {
-      padding-left: 26%;
-      padding-right: 0; }
-  #what .experts .lines {
-    padding-top: 12%;
+        padding-right: 20%;
+        padding-top: 15%;
+        font-size: 1vw; }
+  #who .lines {
+    overflow: hidden;
+    padding-top: 3%;
     float: right;
     width: 40%; }
-    #what .experts .lines img {
+    #who .lines img {
       display: block; }
 
-#methodology .h1-wrapper {
-  width: 224px;
-  height: 35px;
-  margin-left: 76px;
-  position: relative;
-  margin-bottom: 44px; }
-  #methodology .h1-wrapper h1 {
-    position: absolute;
-    color: #00ffa3;
-    padding: 0 0 10px;
-    font-size: 1vw; }
-    #methodology .h1-wrapper h1:after {
-      content: "";
-      border-bottom: 1px solid #00ffa3;
-      left: 0;
-      right: 0;
-      bottom: 5px;
-      height: 1px;
-      position: absolute; }
-#methodology .wrapper {
-  padding-left: 76px; }
-  #methodology .wrapper .half-block {
-    width: 50%;
-    float: left; }
-    #methodology .wrapper .half-block:nth-child(2) .title {
-      width: 404px; }
-  #methodology .wrapper .title {
-    width: 280px;
-    height: 100px;
-    position: relative;
-    margin-bottom: 44px; }
-    #methodology .wrapper .title h1 {
-      position: absolute;
-      color: #0000ff;
-      padding: 0 0 10px;
-      font-size: 2vw;
-      font-weight: 800; }
-      #methodology .wrapper .title h1:after {
-        content: "";
-        border-bottom: 2px solid #0000ff;
-        left: 0;
-        right: 0;
-        bottom: 5px;
-        height: 1px;
-        position: absolute; }
-
-#why .h1-wrapper {
-  width: 251px;
-  height: 35px;
-  margin-left: 76px;
-  position: relative;
-  margin-bottom: 44px; }
-  #why .h1-wrapper h1 {
-    position: absolute;
-    color: #00ffa3;
-    padding: 0 0 10px;
-    font-size: 1vw; }
-    #why .h1-wrapper h1:after {
-      content: "";
-      border-bottom: 1px solid #00ffa3;
-      left: 0;
-      right: 0;
-      bottom: 5px;
-      height: 1px;
-      position: absolute; }
-#why .with {
-  padding-left: 76px;
-  margin-bottom: 70px; }
-  #why .with .half-block {
-    width: 50%;
-    float: left; }
-    #why .with .half-block span {
-      font-size: 2vw;
-      line-height: 2.7vw;
-      font-weight: 800;
-      color: #0000ff;
-      text-transform: uppercase; }
-    #why .with .half-block:nth-child(2) {
-      float: right; }
-      #why .with .half-block:nth-child(2) img {
-        width: 100%; }
-#why .experts {
-  margin: 100px 76px; }
-  #why .experts .tetra-block {
-    width: 20%;
-    float: left;
-    padding: 0 30px; }
-    #why .experts .tetra-block .image img {
-      max-height: 250px;
-      min-height: 250px; }
-    #why .experts .tetra-block .text {
-      margin-top: 60px; }
-
-#dream .dream {
-  float: left;
-  width: 40%;
-  background-color: #0000ff;
-  padding: 80px 0; }
-  #dream .dream .h1-wrapper {
-    width: 140px;
+#what {
+  padding-top: 130px; }
+  #what .what-we-are-doing .h1-wrapper {
+    width: 224px;
     height: 35px;
-    margin-left: 76px;
+    margin-left: 60px;
     position: relative;
-    margin-bottom: 44px; }
-    #dream .dream .h1-wrapper h1 {
-      position: absolute;
-      color: #FFF;
-      padding: 0 0 10px;
-      font-size: 1vw; }
-      #dream .dream .h1-wrapper h1:after {
-        content: "";
-        border-bottom: 1px solid #FFF;
-        left: 0;
-        right: 0;
-        bottom: 5px;
-        height: 1px;
-        position: absolute; }
-  #dream .dream span {
-    color: #FFF;
-    width: 90%;
-    padding-left: 76px;
-    font-size: 2vw;
-    text-transform: uppercase;
-    font-weight: 800;
-    display: block; }
-#dream .reweave {
-  width: 60%;
-  float: left;
-  margin-top: 4%; }
-  #dream .reweave .bg-under img {
-    float: right;
-    width: 70%; }
-  #dream .reweave .bg-over img {
-    margin-top: -6%;
-    margin-right: 6%;
-    width: 80%;
-    float: right; }
-
-#join {
-  padding: 180px 0 60px 0;
-  overflow: hidden; }
-  #join .h1-wrapper {
-    width: 140px;
-    height: 35px;
-    margin-left: 76px;
-    position: relative;
-    margin-bottom: 44px; }
-    #join .h1-wrapper h1 {
+    margin-bottom: 20px; }
+    #what .what-we-are-doing .h1-wrapper h1 {
       position: absolute;
       color: #00ffa3;
       padding: 0 0 10px;
       font-size: 1vw; }
-      #join .h1-wrapper h1:after {
+      #what .what-we-are-doing .h1-wrapper h1:after {
         content: "";
         border-bottom: 1px solid #00ffa3;
         left: 0;
@@ -456,42 +224,248 @@ body {
         bottom: 5px;
         height: 1px;
         position: absolute; }
-  #join .who-text {
+  #what .experts {
+    margin: 0 0 32px 124px; }
+    #what .experts .quarter-block {
+      width: 25%;
+      float: left; }
+      #what .experts .quarter-block .image .bg-over {
+        width: 100%;
+        padding: 0 35% 0 0; }
+        #what .experts .quarter-block .image .bg-over:before {
+          content: "";
+          display: block;
+          width: 100%;
+          height: 0;
+          padding-bottom: 100%;
+          background: #0000ff;
+          -moz-border-radius: 50%;
+          -webkit-border-radius: 50%;
+          border-radius: 50%;
+          margin-bottom: -100%; }
+        #what .experts .quarter-block .image .bg-over:after {
+          content: "";
+          display: block;
+          width: 96%;
+          height: 0;
+          padding: 48%;
+          margin: 2% 0% 5% 2%;
+          background: #FFF;
+          -moz-border-radius: 50%;
+          -webkit-border-radius: 50%;
+          border-radius: 50%; }
+        #what .experts .quarter-block .image .bg-over .bg-text {
+          float: left;
+          width: 100%;
+          padding-top: 50%;
+          line-height: 2.7vw;
+          font-size: 2vw;
+          margin-top: -0.7em;
+          text-align: center;
+          font-weight: 800;
+          color: #0000ff;
+          text-transform: uppercase; }
+      #what .experts .quarter-block .image .bg-under {
+        margin-bottom: -100%; }
+      #what .experts .quarter-block:nth-child(1) .image .bg-over .bg-text {
+        margin-top: -0.5em; }
+      #what .experts .quarter-block:nth-child(2) .image .bg-over .bg-text, #what .experts .quarter-block:nth-child(4) .image .bg-over .bg-text {
+        margin-top: -1.8em; }
+      #what .experts .quarter-block:nth-child(3) .image .bg-over .bg-text {
+        margin-top: -1.2em; }
+      #what .experts .quarter-block .text {
+        padding-right: 20%;
+        padding-top: 15%;
+        font-size: 1vw; }
+  #what .lines {
+    overflow: hidden;
+    padding-top: 3%;
+    float: right;
+    width: 40%; }
+    #what .lines img {
+      display: block; }
+
+#methodology {
+  padding-top: 130px; }
+  #methodology .h1-wrapper {
+    width: 224px;
+    height: 35px;
+    margin-left: 60px;
+    position: relative;
+    margin-bottom: 10px; }
+    #methodology .h1-wrapper h1 {
+      position: absolute;
+      color: #00ffa3;
+      padding: 0 0 10px;
+      font-size: 1vw; }
+      #methodology .h1-wrapper h1:after {
+        content: "";
+        border-bottom: 1px solid #00ffa3;
+        left: 0;
+        right: 0;
+        bottom: 5px;
+        height: 1px;
+        position: absolute; }
+  #methodology .wrapper {
+    padding-left: 60px; }
+    #methodology .wrapper .half-block {
+      width: 50%;
+      float: left;
+      padding-right: 70px; }
+    #methodology .wrapper .left-block {
+      width: 60%;
+      float: left; }
+    #methodology .wrapper .right-block {
+      width: 40%;
+      float: right; }
+    #methodology .wrapper .title {
+      border-bottom: 2px solid #0000ff; }
+      #methodology .wrapper .title h1 {
+        color: #0000ff;
+        font-size: 2.3vw;
+        font-weight: 800; }
+    #methodology .wrapper .text {
+      font-size: 1vw;
+      padding-top: 20px; }
+
+#why {
+  padding-top: 130px; }
+  #why .h1-wrapper {
+    width: 251px;
+    height: 35px;
+    margin-left: 60px;
+    position: relative;
+    margin-bottom: 10px; }
+    #why .h1-wrapper h1 {
+      position: absolute;
+      color: #00ffa3;
+      padding: 0 0 10px;
+      font-size: 1vw; }
+      #why .h1-wrapper h1:after {
+        content: "";
+        border-bottom: 1px solid #00ffa3;
+        left: 0;
+        right: 0;
+        bottom: 5px;
+        height: 1px;
+        position: absolute; }
+  #why .with {
+    padding-left: 60px;
+    margin-bottom: 70px; }
+    #why .with .half-block {
+      width: 50%;
+      float: left; }
+      #why .with .half-block span {
+        font-size: 2vw;
+        line-height: 2.7vw;
+        font-weight: 800;
+        color: #0000ff;
+        text-transform: uppercase; }
+      #why .with .half-block:nth-child(2) {
+        float: right; }
+        #why .with .half-block:nth-child(2) img {
+          width: 100%; }
+  #why .experts {
+    margin: 30px 124px 32px 124px; }
+    #why .experts .tetra-block {
+      width: 20%;
+      float: left; }
+      #why .experts .tetra-block .wrapper {
+        width: 100%; }
+        #why .experts .tetra-block .wrapper .image img {
+          max-height: 150px;
+          min-height: 150px;
+          width: 55%; }
+        #why .experts .tetra-block .wrapper .text {
+          margin-top: 20px;
+          font-size: 1vw;
+          padding-right: 20%; }
+
+#dream {
+  padding-top: 62px; }
+  #dream .dream {
+    float: left;
     width: 40%;
-    position: absolute;
-    left: 10%; }
+    background-color: #0000ff;
+    padding: 65px 0; }
+    #dream .dream .h1-wrapper {
+      width: 140px;
+      height: 35px;
+      margin-left: 60px;
+      position: relative; }
+      #dream .dream .h1-wrapper h1 {
+        position: absolute;
+        color: #FFF;
+        padding: 0 0 10px;
+        font-size: 1vw; }
+        #dream .dream .h1-wrapper h1:after {
+          content: "";
+          border-bottom: 1px solid #FFF;
+          left: 0;
+          right: 0;
+          bottom: 5px;
+          height: 1px;
+          position: absolute; }
+    #dream .dream span {
+      color: #FFF;
+      width: 90%;
+      padding-left: 60px;
+      font-size: 2vw;
+      text-transform: uppercase;
+      font-weight: 800;
+      display: block; }
+  #dream .reweave {
+    width: 60%;
+    float: left;
+    margin-top: 4%; }
+    #dream .reweave .bg-under img {
+      float: right;
+      width: 70%; }
+    #dream .reweave .bg-over img {
+      margin-top: -6%;
+      margin-right: 6%;
+      width: 80%;
+      float: right; }
+
+#join {
+  padding-top: 140px;
+  overflow: hidden; }
+  #join .who-text {
+    padding-left: 60px;
+    width: 65%;
+    top: 205px;
+    position: absolute; }
     #join .who-text span {
       font-size: 5.75vw;
       font-weight: 800; }
   #join .lines img {
     display: block;
-    width: 80%;
+    width: 83%;
+    height: 83%;
     float: right;
-    margin-right: -150px; }
+    margin-right: -95px; }
   #join .partner {
-    margin-top: 70px;
-    height: 142px;
+    margin-top: 40px;
     background: #0000ff;
     position: relative; }
     #join .partner .wrapper {
-      width: 100%;
+      width: 60%;
       padding: 0;
-      position: absolute;
-      margin: -1.5vw 0 0 -36vw;
-      top: 50%;
-      left: 50%; }
+      margin: 0 auto; }
       #join .partner .wrapper .email {
         float: left; }
         #join .partner .wrapper .email svg {
           height: 65px;
+          padding: 15px 0;
           fill: #FFF;
           vertical-align: middle; }
       #join .partner .wrapper span {
         color: #FFF;
         float: left;
         font-weight: 800;
-        font-size: 2vw;
-        margin-left: 2%; }
+        font-size: 1.5vw;
+        margin-left: 2%;
+        padding-top: 18px; }
   #join .wrapper {
     padding-top: 60px; }
     #join .wrapper .image-wrapper {
