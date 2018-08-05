@@ -221,6 +221,14 @@ add_action( 'init', function() {
     register_nav_menu('header-menu',__( 'Header Menu' ));
 } );
 
+function custom_upload_mimes($mimes = array()) {
+    $mimes['svg'] = "image/svg";
+
+    return $mimes;
+}
+
+add_action('upload_mimes', 'custom_upload_mimes');
+
 
 
 

@@ -19,52 +19,39 @@ Template Name: Who we are Page
             <img src="<?php echo get_stylesheet_directory_uri()?>/img/lines_page_2.svg" />
         </div>
         <div class="text-wrapper">
-            <span class="top">WE ARE A GROUP OF CHANGEMAKERS</span>
-            <span class="bottom">WE CREATE A DIVERSE EFFECT WITH <br />A STRONG EXECUTION TEAM</span>
+            <span class="top"><?php the_field('who_right_text_top');?></span>
+            <span class="bottom"><?php the_field('who_right_text_bottom');?></span>
         </div>
         <div class="clearfix"></div>
     </div>
-    <div class="experts">
-        <div class="quarter-block">
-            <div class="image">
-                <div class="bg-over"><div class="bg-text">Experts: <br />Europe</div></div>
-
+        <?php
+        $circles = get_field('who_circles');
+        if (!empty($circles)) : ?>
+            <div class="experts">
+                <?php $curr = 0; foreach($circles as $circle) : $curr++; ?>
+                    <div class="quarter-block">
+                        <div class="image">
+                            <img src="<?php echo get_stylesheet_directory_uri()?>/img/circle.svg" />
+                            <?php if($circle['who_text_in_cirlcle']): ?>
+                                <div class="bg-over">
+                                    <div class="bg-text"><?php echo $circle['who_text_in_cirlcle'];?></div>
+                                </div>
+                            <?php endif; ?>
+                            <?php if($circle['who_bg_image']): ?>
+                                <div class="bg-image"><img src="<?php echo $circle['who_bg_image']?>" /></div>
+                            <?php endif; ?>
+                        </div>
+                        <div class="text">
+                            <div class="title"><?php echo $circle['who_circle_block_title'];?></div>
+                            <?php echo $circle['who_circle_block_description'];?>
+                        </div>
+                    </div>
+                    <?php if($curr % 4 == 0): ?>
+                        <div class="clearfix"></div>
+                    <?php endif; ?>
+                <?php endforeach;?>
             </div>
-            <div class="text">
-                <div class="title">PLACEHOLDER TEXT!</div>
-                When Enviu was founded in 2004, their belief was the same as it is today: An inclusive economy that serves people and planet. Enviu is a venture building studio that builds multinationals that address social and environmental issues, and drive market development. Companies with high impact in the domains of financial inclusion, circular economy, and food systems. World changing companies.
-            </div>
-        </div>
-        <div class="quarter-block">
-            <div class="image">
-
-                <div class="bg-over"><div class="bg-text">Experts: <br />India</div></div>
-            </div>
-            <div class="text">
-                <div class="title">PLACEHOLDER TEXT!</div>
-                When Enviu was founded in 2004, their belief was the same as it is today: An inclusive economy that serves people and planet. Enviu is a venture building studio that builds multinationals that address social and environmental issues, and drive market development. Companies with high impact in the domains of financial inclusion, circular economy, and food systems. World changing companies.
-            </div>
-        </div>
-        <div class="quarter-block">
-            <div class="image">
-
-                <div class="bg-over"><div class="bg-text">NGO</div></div>
-            </div>
-            <div class="text">
-                <div class="title">PLACEHOLDER TEXT!</div>
-                When Enviu was founded in 2004, their belief was the same as it is today: An inclusive economy that serves people and planet. Enviu is a venture building studio that builds multinationals that address social and environmental issues, and drive market development. Companies with high impact in the domains of financial inclusion, circular economy, and food systems. World changing companies.</div>
-        </div>
-        <div class="quarter-block">
-            <div class="image">
-
-                <div class="bg-over"><div class="bg-text">ENVIU</div></div>
-            </div>
-            <div class="text">
-                <div class="title">PLACEHOLDER TEXT!</div>
-                When Enviu was founded in 2004, their belief was the same as it is today: An inclusive economy that serves people and planet. Enviu is a venture building studio that builds multinationals that address social and environmental issues, and drive market development. Companies with high impact in the domains of financial inclusion, circular economy, and food systems. World changing companies.</div>
-        </div>
-        <div class="clearfix"></div>
-    </div>
+        <?php endif; ?>
     <div class="lines">
         <div class="image-wrapper">
             <img src="<?php echo get_stylesheet_directory_uri()?>/img/lines_page_4.svg" />

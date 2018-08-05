@@ -11,7 +11,7 @@ Template Name: Our dream Page
             <h1>OUR DREAM</h1>
         </div>
         <span>
-            We want to realize a new, circular and socially fair textiles value chain by 2030, starting in India. We’ve made a great start. We’ve the execution power to do this, but if we could to this alone we would not be dreaming big enough. We are looking for knowledge and funding partners to bundle forces and start to reweave the industry from tomorrow onward.
+            <?php the_field('our_dream'); ?>
         </span>
     </div>
     <div class="reweave">

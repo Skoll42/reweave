@@ -99,11 +99,11 @@ body {
 				line-height: 1.5vw;
 
 				&.top {
-					padding-bottom: 7%;
+					padding-bottom: 4%;
 				}
 
 				&.bottom {
-					line-height: 2vw;
+					line-height: 2.4vw;
 				}
 			}
 		}
@@ -113,64 +113,37 @@ body {
 		.quarter-block {
 			width: 25%;
 			float: left;
+			position: relative;
 
 			.image {
-				.bg-over {
+				max-width: 80%;
+				position: relative;
+				height: 100%;
+
+				.bg-image {
+					position: absolute;
+					top: 10%;
+					left: 18%;
 					width: 100%;
-					padding: 0 35% 0 0;
-
-					&:before {
-						content: "";
-						display: block;
-						width: 100%;
-						height: 0;
-						padding-bottom: 100%;
-						background: #0000ff;
-						-moz-border-radius: 50%;
-						-webkit-border-radius: 50%;
-						border-radius: 50%;
-						margin-bottom: -100%;
-					}
-
-					&:after {
-						content: "";
-						display: block;
-						width: 96%;
-						height: 0;
-						padding: 48%;
-						margin: 2% 0% 5% 2%;
-						background: #FFF;
-						-moz-border-radius: 50%;
-						-webkit-border-radius: 50%;
-						border-radius: 50%;
-					}
-
-					.bg-text {
-						float: left;
-						width: 100%;
-						padding-top: 50%;
-						line-height: 2.7vw;
-						font-size: 2vw;
-						margin-top: -0.7em;
-						text-align: center;
-						font-weight: 800;
-						color: #0000ff;
-						text-transform: uppercase;
-					}
+					z-index: -1;
 				}
+
+				.bg-text {
+					width: 100%;
+					position: absolute;
+					top: 50%;
+					line-height: 2.7vw;
+					font-size: 2vw;
+					text-align: center;
+					font-weight: 800;
+					color: #0000ff;
+					text-transform: uppercase;
+					transform: translateY(-50%);
+				}
+
 
 				.bg-under {
 					margin-bottom: -100%;
-				}
-			}
-
-			&:nth-child(1), &:nth-child(2) {
-				.image {
-					.bg-over {
-						.bg-text {
-							margin-top: -1.2em;
-						}
-					}
 				}
 			}
 
@@ -222,88 +195,33 @@ body {
 	}
 
 	.experts {
-		margin: 0 0 32px 124px;
+		margin: 60px 0 32px 124px;
 		.quarter-block {
 			width: 25%;
 			float: left;
+			position: relative;
 
 			.image {
-				.bg-over {
+				max-width: 80%;
+				position: relative;
+				height: 100%;
+
+				.bg-text {
 					width: 100%;
-					padding: 0 35% 0 0;
-
-					&:before {
-						content: "";
-						display: block;
-						width: 100%;
-						height: 0;
-						padding-bottom: 100%;
-						background: #0000ff;
-						-moz-border-radius: 50%;
-						-webkit-border-radius: 50%;
-						border-radius: 50%;
-						margin-bottom: -100%;
-					}
-
-					&:after {
-						content: "";
-						display: block;
-						width: 96%;
-						height: 0;
-						padding: 48%;
-						margin: 2% 0% 5% 2%;
-						background: #FFF;
-						-moz-border-radius: 50%;
-						-webkit-border-radius: 50%;
-						border-radius: 50%;
-					}
-
-					.bg-text {
-						float: left;
-						width: 100%;
-						padding-top: 50%;
-						line-height: 2.7vw;
-						font-size: 2vw;
-						margin-top: -0.7em;
-						text-align: center;
-						font-weight: 800;
-						color: #0000ff;
-						text-transform: uppercase;
-					}
+					position: absolute;
+					top: 50%;
+					line-height: 2.7vw;
+					font-size: 2vw;
+					text-align: center;
+					font-weight: 800;
+					color: #0000ff;
+					text-transform: uppercase;
+					transform: translateY(-50%);
 				}
+
 
 				.bg-under {
 					margin-bottom: -100%;
-				}
-			}
-
-			&:nth-child(1) {
-				.image {
-					.bg-over {
-						.bg-text {
-							margin-top: -0.5em;
-						}
-					}
-				}
-			}
-
-			&:nth-child(2), &:nth-child(4) {
-				.image {
-					.bg-over {
-						.bg-text {
-							margin-top: -1.8em;
-						}
-					}
-				}
-			}
-
-			&:nth-child(3) {
-				.image {
-					.bg-over {
-						.bg-text {
-							margin-top: -1.2em;
-						}
-					}
 				}
 			}
 
