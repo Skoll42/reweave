@@ -76,22 +76,24 @@ body {
   padding-top: 140px; }
 
 #home {
-  padding: 140px 0 0 60px;
+  margin: 140px 0 0 60px;
+  padding-top: 0;
   overflow: hidden; }
-  #home .who-text {
-    width: 50%;
-    top: 205px;
-    position: absolute; }
-    #home .who-text span {
-      font-size: 5.75vw;
-      font-weight: 800;
-      text-transform: uppercase; }
   #home .lines img {
     display: block;
     width: 83%;
     height: 83%;
     float: right;
     margin-right: -95px; }
+  #home .lines .who-text {
+    width: 50%;
+    top: 50%;
+    transform: translateY(-50%);
+    position: absolute; }
+    #home .lines .who-text span {
+      font-size: 5.75vw;
+      font-weight: 800;
+      text-transform: uppercase; }
 
 #who {
   width: 100%;
@@ -265,7 +267,8 @@ body {
         height: 1px;
         position: absolute; }
   #methodology .wrapper {
-    padding-left: 60px; }
+    padding-left: 60px;
+    padding-bottom: 60px; }
     #methodology .wrapper .half-block {
       width: 50%;
       float: left;
@@ -285,6 +288,8 @@ body {
     #methodology .wrapper .text {
       font-size: 1vw;
       padding-top: 20px; }
+    #methodology .wrapper .flower {
+      transform: translateY(27%); }
 
 #why {
   padding-top: 130px; }
@@ -322,7 +327,8 @@ body {
       #why .with .half-block:nth-child(2) {
         float: right; }
         #why .with .half-block:nth-child(2) img {
-          width: 100%; }
+          width: 95%;
+          float: right; }
   #why .experts {
     margin: 30px 124px 32px 124px; }
     #why .experts .tetra-block {
@@ -331,9 +337,7 @@ body {
       #why .experts .tetra-block .wrapper {
         width: 100%; }
         #why .experts .tetra-block .wrapper .image img {
-          max-height: 150px;
-          min-height: 150px;
-          width: 55%; }
+          width: 60%; }
         #why .experts .tetra-block .wrapper .text {
           margin-top: 20px;
           font-size: 1vw;
@@ -446,9 +450,9 @@ body {
             color: #0000ff;
             text-decoration: none; }
         #join .wrapper .text-wrapper span.top {
-          padding-bottom: 8%; }
+          padding-bottom: 7%; }
         #join .wrapper .text-wrapper span.bottom {
-          line-height: 2vw;
+          line-height: 2.5vw;
           font-weight: 500; }
     #join .wrapper:nth-child(2) .image-wrapper {
       float: right; }
@@ -458,6 +462,7 @@ body {
       padding-right: 2%; }
 
 .footer {
+  margin-top: 40px;
   background-color: #0000ff;
   padding-bottom: 30px;
   color: #FFF;

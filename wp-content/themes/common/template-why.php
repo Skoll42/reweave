@@ -44,9 +44,10 @@ Template Name: Why is this needed Page
                     <div class="clearfix"></div>
                 <?php endif; ?>
             <?php endforeach;?>
+            <div class="clearfix"></div>
         </div>
-    <?php endif; ?>
 
+    <?php endif; ?>
     <?php
     $si_whys = get_field('whys_si');
     if (!empty($si_whys)) : ?>
@@ -72,6 +73,7 @@ Template Name: Why is this needed Page
                     <div class="clearfix"></div>
                 <?php endif; ?>
             <?php endforeach;?>
+            <div class="clearfix"></div>
         </div>
     <?php endif; ?>
 </div>
