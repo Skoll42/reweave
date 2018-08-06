@@ -453,19 +453,10 @@ body {
 }
 
 #join {
-	padding-top: 140px;
+	margin: 140px 0 0 60px;
+	padding-top: 0;
 	overflow: hidden;
 
-	.who-text {
-		padding-left: 60px;
-		width: 65%;
-		top: 205px;
-		position: absolute;
-		span {
-			font-size: 5.75vw;
-			font-weight: 800;
-		}
-	}
 	.lines {
 		img {
 			display: block;
@@ -473,6 +464,17 @@ body {
 			height: 83%;
 			float: right;
 			margin-right: -95px;
+		}
+		.who-text {
+			width: 50%;
+			top: 50%;
+			transform: translateY(-50%);
+			position: absolute;
+			span {
+				font-size: 5.75vw;
+				font-weight: 800;
+				text-transform: uppercase;
+			}
 		}
 	}
 

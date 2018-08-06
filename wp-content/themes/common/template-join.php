@@ -6,12 +6,12 @@ Template Name: Join us Page
 
 <?php get_header(); ?>
 <div class="section" id="join">
-    <div class="who-text">
-        <span>WE ARE LOOKING FOR PARTNERS TO ACCELERATE CHANGE</span>
-    </div>
     <div class="lines">
         <div class="image-wrapper">
             <img src="<?php echo get_stylesheet_directory_uri()?>/img/mainpagelines.svg" />
+            <div class="who-text">
+                <span><?php the_field('join_text'); ?></span>
+            </div>
         </div>
     </div>
     <div class="clearfix"></div>

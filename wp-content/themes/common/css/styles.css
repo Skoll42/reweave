@@ -390,22 +390,24 @@ body {
       float: right; }
 
 #join {
-  padding-top: 140px;
+  margin: 140px 0 0 60px;
+  padding-top: 0;
   overflow: hidden; }
-  #join .who-text {
-    padding-left: 60px;
-    width: 65%;
-    top: 205px;
-    position: absolute; }
-    #join .who-text span {
-      font-size: 5.75vw;
-      font-weight: 800; }
   #join .lines img {
     display: block;
     width: 83%;
     height: 83%;
     float: right;
     margin-right: -95px; }
+  #join .lines .who-text {
+    width: 50%;
+    top: 50%;
+    transform: translateY(-50%);
+    position: absolute; }
+    #join .lines .who-text span {
+      font-size: 5.75vw;
+      font-weight: 800;
+      text-transform: uppercase; }
   #join .partner {
     margin-top: 40px;
     background: #0000ff;
