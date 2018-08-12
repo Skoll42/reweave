@@ -53,7 +53,6 @@ Template Name: Who we are Page
             </div>
         <?php endif; ?>
     <?php
-    $circles = get_field('who_circles');
     if (!empty($circles)) : ?>
         <div class="experts visible-xs">
             <?php $curr = 0; foreach($circles as $circle) : $curr++; ?>
@@ -80,7 +79,7 @@ Template Name: Who we are Page
             <?php endforeach;?>
         </div>
     <?php endif; ?>
-    <div class="lines">
+    <div class="lines hidden-xs">
         <div class="image-wrapper">
             <img src="<?php echo get_stylesheet_directory_uri()?>/img/lines_page_4.svg" />
         </div>
