@@ -125,24 +125,43 @@ body {
   padding-top: 140px; }
 
 #home {
-  margin: 140px 0 0 60px;
+  margin: 0 0 0 34px;
   padding-top: 0;
-  overflow: hidden; }
+  overflow: hidden;
+  height: 100vh;
+  position: relative; }
+  @media (min-width: 992px) {
+    #home {
+      margin: 7vh 0 0 60px;
+      height: 93vh; } }
   #home .lines img {
     display: block;
-    width: 83%;
-    height: 83%;
-    float: right;
-    margin-right: -95px; }
-  #home .lines .who-text {
-    width: 50%;
+    width: 817px;
+    height: 100%;
+    left: 28%;
     top: 50%;
     transform: translateY(-50%);
     position: absolute; }
+    @media (min-width: 768px) {
+      #home .lines img {
+        width: 83%;
+        height: 83%;
+        right: -95px; } }
+  #home .lines .who-text {
+    width: 72%;
+    top: 50%;
+    transform: translateY(-50%);
+    position: absolute; }
+    @media (min-width: 768px) {
+      #home .lines .who-text {
+        width: 50%; } }
     #home .lines .who-text span {
-      font-size: 5.75vw;
+      font-size: 40px;
       font-weight: 800;
       text-transform: uppercase; }
+      @media (min-width: 992px) {
+        #home .lines .who-text span {
+          font-size: 5.75vw; } }
 
 #who {
   width: 100%;
