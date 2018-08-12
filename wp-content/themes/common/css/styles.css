@@ -476,18 +476,27 @@ body {
       margin-top: 50px; }
 
 #why {
-  padding-top: 130px; }
+  padding-top: 66px; }
+  @media (min-width: 992px) {
+    #why {
+      padding-top: 130px; } }
   #why .h1-wrapper {
-    width: 251px;
+    width: 220px;
     height: 35px;
-    margin-left: 60px;
+    margin-left: 28px;
     position: relative;
     margin-bottom: 10px; }
+    @media (min-width: 992px) {
+      #why .h1-wrapper {
+        margin-left: 60px; } }
     #why .h1-wrapper h1 {
       position: absolute;
       color: #00ffa3;
       padding: 0 0 10px;
-      font-size: 1vw; }
+      font-size: 14px; }
+      @media (min-width: 992px) {
+        #why .h1-wrapper h1 {
+          font-size: 1vw; } }
       #why .h1-wrapper h1:after {
         content: "";
         border-bottom: 1px solid #00ffa3;
@@ -496,6 +505,29 @@ body {
         bottom: 5px;
         height: 1px;
         position: absolute; }
+  #why .with-mobile {
+    margin: 0 0 0 34px;
+    padding-top: 0;
+    overflow: hidden;
+    height: 470px;
+    position: relative; }
+    #why .with-mobile .lines img {
+      display: block;
+      width: 817px;
+      height: 100%;
+      left: 28%;
+      top: 50%;
+      transform: translateY(-50%);
+      position: absolute; }
+    #why .with-mobile .lines .who-text {
+      width: 72%;
+      top: 50%;
+      transform: translateY(-50%);
+      position: absolute; }
+      #why .with-mobile .lines .who-text span {
+        font-size: 25px;
+        font-weight: 800;
+        text-transform: uppercase; }
   #why .with {
     padding-left: 60px;
     margin-bottom: 70px; }
@@ -514,18 +546,37 @@ body {
           width: 95%;
           float: right; }
   #why .experts {
-    margin: 30px 124px 32px 124px; }
+    margin: 30px 28px 32px 28px; }
+    @media (min-width: 768px) {
+      #why .experts {
+        margin: 30px 60px 32px 60px; } }
+    @media (min-width: 992px) {
+      #why .experts {
+        margin: 30px 124px 32px 124px; } }
     #why .experts .tetra-block {
-      width: 20%;
-      float: left; }
+      width: 50%;
+      float: left;
+      margin-top: 60px; }
+      @media (min-width: 768px) {
+        #why .experts .tetra-block {
+          width: 20%; } }
       #why .experts .tetra-block .wrapper {
         width: 100%; }
         #why .experts .tetra-block .wrapper .image img {
           width: 60%; }
         #why .experts .tetra-block .wrapper .text {
           margin-top: 20px;
-          font-size: 1vw;
+          line-height: 20px;
+          font-size: 18px;
           padding-right: 20%; }
+          #why .experts .tetra-block .wrapper .text .title {
+            color: #00ffa3; }
+            @media (min-width: 768px) {
+              #why .experts .tetra-block .wrapper .text .title {
+                color: #0000ff; } }
+          @media (min-width: 768px) {
+            #why .experts .tetra-block .wrapper .text {
+              font-size: 1vw; } }
 
 #dream {
   padding-top: 62px; }
