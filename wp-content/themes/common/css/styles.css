@@ -9,7 +9,7 @@
   .header .navbar .navbar-header {
     border-radius: 0; }
     .header .navbar .navbar-header button.navbar-toggle {
-      margin: 8px 6px 0 0;
+      margin: 8px 18px 0 0;
       border: 0; }
       .header .navbar .navbar-header button.navbar-toggle .icon-bar {
         background-color: #0000ff;
@@ -178,7 +178,7 @@ body {
     #who .who-we-are .h1-wrapper {
       width: 140px;
       height: 35px;
-      margin-left: 20px;
+      margin-left: 28px;
       position: relative;
       margin-bottom: 10px; }
       @media (min-width: 992px) {
@@ -203,7 +203,7 @@ body {
     #who .who-we-are span {
       color: #FFF;
       width: 82%;
-      margin-left: 20px;
+      margin-left: 28px;
       font-size: 20px;
       text-transform: uppercase;
       font-weight: 800;
@@ -258,7 +258,7 @@ body {
             #who .group-of-chengemakers .text-wrapper span.bottom {
               line-height: 2.4vw; } }
   #who .experts {
-    margin: 60px 0 32px 20px; }
+    margin: 60px 0 32px 28px; }
     @media (min-width: 768px) {
       #who .experts {
         margin: 60px 0 32px 80px; } }
@@ -373,18 +373,27 @@ body {
       display: block; }
 
 #methodology {
-  padding-top: 130px; }
+  padding-top: 66px; }
+  @media (min-width: 992px) {
+    #methodology {
+      padding-top: 130px; } }
   #methodology .h1-wrapper {
-    width: 224px;
+    width: 140px;
     height: 35px;
-    margin-left: 60px;
+    margin-left: 28px;
     position: relative;
     margin-bottom: 10px; }
+    @media (min-width: 992px) {
+      #methodology .h1-wrapper {
+        margin-left: 60px; } }
     #methodology .h1-wrapper h1 {
       position: absolute;
       color: #00ffa3;
       padding: 0 0 10px;
-      font-size: 1vw; }
+      font-size: 14px; }
+      @media (min-width: 992px) {
+        #methodology .h1-wrapper h1 {
+          font-size: 1vw; } }
       #methodology .h1-wrapper h1:after {
         content: "";
         border-bottom: 1px solid #00ffa3;
@@ -417,6 +426,21 @@ body {
       padding-top: 20px; }
     #methodology .wrapper .flower {
       transform: translateY(27%); }
+  #methodology .wrapper-mobile {
+    margin-left: 28px;
+    margin-right: 28px;
+    padding-bottom: 20px; }
+    #methodology .wrapper-mobile .title {
+      border-bottom: 2px solid #0000ff; }
+      #methodology .wrapper-mobile .title h1 {
+        color: #0000ff;
+        font-size: 20px;
+        font-weight: 800; }
+    #methodology .wrapper-mobile .text {
+      font-size: 14px;
+      padding-top: 20px; }
+    #methodology .wrapper-mobile .flower {
+      margin-top: 50px; }
 
 #why {
   padding-top: 130px; }
