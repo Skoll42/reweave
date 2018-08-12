@@ -165,21 +165,33 @@ body {
 
 #who {
   width: 100%;
-  padding-top: 90px; }
+  padding-top: 66px; }
+  @media (min-width: 992px) {
+    #who {
+      padding-top: 90px; } }
   #who .who-we-are {
     background-color: #0000ff;
-    padding: 40px 0; }
+    padding: 5px 0 20px 0; }
+    @media (min-width: 992px) {
+      #who .who-we-are {
+        padding: 40px 0; } }
     #who .who-we-are .h1-wrapper {
       width: 140px;
       height: 35px;
-      margin-left: 60px;
+      margin-left: 20px;
       position: relative;
       margin-bottom: 10px; }
+      @media (min-width: 992px) {
+        #who .who-we-are .h1-wrapper {
+          margin-left: 60px; } }
       #who .who-we-are .h1-wrapper h1 {
         position: absolute;
         color: #FFF;
         padding: 0 0 10px;
-        font-size: 1vw; }
+        font-size: 14px; }
+        @media (min-width: 992px) {
+          #who .who-we-are .h1-wrapper h1 {
+            font-size: 1vw; } }
         #who .who-we-are .h1-wrapper h1:after {
           content: "";
           border-bottom: 1px solid #FFF;
@@ -190,38 +202,78 @@ body {
           position: absolute; }
     #who .who-we-are span {
       color: #FFF;
-      width: 41%;
-      margin-left: 60px;
-      font-size: 2.2vw;
+      width: 82%;
+      margin-left: 20px;
+      font-size: 20px;
       text-transform: uppercase;
       font-weight: 800;
       display: block; }
+      @media (min-width: 768px) {
+        #who .who-we-are span {
+          width: 41%; } }
+      @media (min-width: 992px) {
+        #who .who-we-are span {
+          font-size: 2.2vw;
+          margin-left: 60px; } }
   #who .group-of-chengemakers {
     padding-top: 30px; }
     #who .group-of-chengemakers .image-wrapper {
-      width: 48%;
+      width: 41%;
       float: left; }
+      @media (min-width: 992px) {
+        #who .group-of-chengemakers .image-wrapper {
+          width: 48%; } }
       #who .group-of-chengemakers .image-wrapper img {
-        width: 100%;
-        margin-left: -42px; }
+        width: 910px;
+        margin-left: -760px; }
+        @media (min-width: 768px) {
+          #who .group-of-chengemakers .image-wrapper img {
+            width: 525px;
+            margin-left: -190px; } }
+        @media (min-width: 992px) {
+          #who .group-of-chengemakers .image-wrapper img {
+            width: 100%;
+            margin-left: -42px; } }
     #who .group-of-chengemakers .text-wrapper {
-      width: 52%;
-      float: right; }
+      width: 51%;
+      float: right;
+      margin-right: 10px; }
       #who .group-of-chengemakers .text-wrapper span {
-        font-size: 2.2vw;
+        font-size: 18px;
         font-weight: 800;
         display: block;
-        line-height: 1.5vw; }
+        line-height: 20px; }
+        @media (min-width: 992px) {
+          #who .group-of-chengemakers .text-wrapper span {
+            font-size: 2.2vw;
+            line-height: 1.5vw; } }
         #who .group-of-chengemakers .text-wrapper span.top {
-          padding-bottom: 4%; }
+          padding-bottom: 22px; }
+          @media (min-width: 992px) {
+            #who .group-of-chengemakers .text-wrapper span.top {
+              padding-bottom: 4%; } }
         #who .group-of-chengemakers .text-wrapper span.bottom {
-          line-height: 2.4vw; }
+          line-height: 20px; }
+          @media (min-width: 992px) {
+            #who .group-of-chengemakers .text-wrapper span.bottom {
+              line-height: 2.4vw; } }
   #who .experts {
-    margin: 60px 0 32px 124px; }
+    margin: 60px 0 32px 20px; }
+    @media (min-width: 768px) {
+      #who .experts {
+        margin: 60px 0 32px 80px; } }
+    @media (min-width: 992px) {
+      #who .experts {
+        margin: 60px 0 32px 124px; } }
     #who .experts .quarter-block {
-      width: 25%;
+      width: 50%;
+      margin-top: 30px;
       float: left;
       position: relative; }
+      @media (min-width: 768px) {
+        #who .experts .quarter-block {
+          width: 25%;
+          margin-top: 0; } }
       #who .experts .quarter-block .image {
         max-width: 80%;
         position: relative;
@@ -236,19 +288,26 @@ body {
           width: 100%;
           position: absolute;
           top: 50%;
-          line-height: 2.7vw;
-          font-size: 2vw;
+          line-height: 20px;
+          font-size: 18px;
           text-align: center;
           font-weight: 800;
           color: #0000ff;
           text-transform: uppercase;
           transform: translateY(-50%); }
+          @media (min-width: 768px) {
+            #who .experts .quarter-block .image .bg-text {
+              line-height: 2.7vw;
+              font-size: 2vw; } }
         #who .experts .quarter-block .image .bg-under {
           margin-bottom: -100%; }
       #who .experts .quarter-block .text {
         padding-right: 20%;
         padding-top: 15%;
-        font-size: 1vw; }
+        font-size: 14px; }
+        @media (min-width: 768px) {
+          #who .experts .quarter-block .text {
+            font-size: 1vw; } }
   #who .lines {
     overflow: hidden;
     padding-top: 3%;
