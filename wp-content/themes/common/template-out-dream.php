@@ -27,13 +27,14 @@ Template Name: Our dream Page
         <div class="clearfix"></div>
     </div>
     <div class="visible-xs">
+        <div class="dream-mobile">
             <div class="h1-wrapper">
                 <h1>OUR DREAM</h1>
             </div>
             <span>
                 <?php the_field('our_dream'); ?>
             </span>
-            <img src="<?php echo get_stylesheet_directory_uri()?>/img/logo.svg" />
+            <img src="<?php echo get_stylesheet_directory_uri()?>/img/logo_white.svg" />
         </div>
     </div>
 </div>

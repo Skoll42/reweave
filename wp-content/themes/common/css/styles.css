@@ -426,6 +426,7 @@ body {
       display: block; }
 
 #methodology {
+  background-color: #fafffa;
   padding-top: 66px; }
   @media (min-width: 992px) {
     #methodology {
@@ -483,19 +484,22 @@ body {
     margin-left: 28px;
     margin-right: 28px;
     padding-bottom: 20px; }
-    #methodology .wrapper-mobile .title {
-      border-bottom: 2px solid #0000ff; }
-      #methodology .wrapper-mobile .title h1 {
-        color: #0000ff;
-        font-size: 20px;
-        font-weight: 800; }
+    #methodology .wrapper-mobile .title h1 {
+      color: #0000ff;
+      font-size: 20px;
+      font-weight: 800; }
+      #methodology .wrapper-mobile .title h1 .underline {
+        border-bottom: 2px solid #0000ff; }
     #methodology .wrapper-mobile .text {
       font-size: 14px;
       padding-top: 20px; }
     #methodology .wrapper-mobile .flower {
       margin-top: 50px; }
+      #methodology .wrapper-mobile .flower img {
+        width: 100%; }
 
 #why {
+  background-color: #fafffa;
   padding-top: 66px; }
   @media (min-width: 992px) {
     #why {
@@ -644,9 +648,50 @@ body {
       width: 80%;
       float: right; }
 
-#join {
-  padding-top: 140px;
+.dream-mobile {
+  background-color: #0000ff;
+  height: calc(100vh - 62px);
   overflow: hidden; }
+  .dream-mobile .h1-wrapper {
+    width: 220px;
+    height: 35px;
+    margin-left: 28px;
+    position: relative;
+    margin-bottom: 10px; }
+    .dream-mobile .h1-wrapper h1 {
+      position: absolute;
+      color: #FFF;
+      padding: 0 0 10px;
+      font-size: 14px; }
+      .dream-mobile .h1-wrapper h1:after {
+        content: "";
+        border-bottom: 1px solid #FFF;
+        left: 0;
+        right: 0;
+        bottom: 5px;
+        height: 1px;
+        position: absolute; }
+  .dream-mobile span {
+    color: #FFF;
+    width: 100%;
+    padding-left: 28px;
+    padding-right: 28px;
+    font-size: 3vh;
+    text-transform: uppercase;
+    font-weight: 800;
+    display: block; }
+  .dream-mobile img {
+    position: absolute;
+    bottom: 0;
+    left: 28px;
+    width: 85%; }
+
+#join {
+  padding-top: 64px;
+  overflow: hidden; }
+  @media (min-width: 992px) {
+    #join {
+      padding-top: 140px; } }
   #join .who-text {
     padding-left: 60px;
     width: 65%;
@@ -661,14 +706,64 @@ body {
     height: 83%;
     float: right;
     margin-right: -95px; }
+  #join .join-mobile {
+    margin: 0 0 0 34px;
+    padding-top: 0;
+    overflow: hidden;
+    height: 100vh;
+    position: relative; }
+    #join .join-mobile .h1-wrapper {
+      width: 220px;
+      height: 35px;
+      position: relative;
+      margin-bottom: 10px; }
+      #join .join-mobile .h1-wrapper h1 {
+        position: absolute;
+        color: #00ffa3;
+        padding: 0 0 10px;
+        font-size: 14px; }
+        @media (min-width: 992px) {
+          #join .join-mobile .h1-wrapper h1 {
+            font-size: 1vw; } }
+        #join .join-mobile .h1-wrapper h1:after {
+          content: "";
+          border-bottom: 1px solid #00ffa3;
+          left: 0;
+          right: 0;
+          bottom: 5px;
+          height: 1px;
+          position: absolute; }
+    #join .join-mobile .lines img {
+      display: block;
+      width: 817px;
+      height: 100%;
+      left: 28%;
+      top: 50%;
+      transform: translateY(-50%);
+      position: absolute; }
+    #join .join-mobile .lines .who-text {
+      width: 72%;
+      top: 50%;
+      transform: translateY(-50%);
+      position: absolute; }
+      #join .join-mobile .lines .who-text span {
+        font-size: 25px;
+        font-weight: 800;
+        text-transform: uppercase; }
   #join .partner {
-    margin-top: 40px;
+    margin-top: 0;
     background: #0000ff;
     position: relative; }
+    @media (min-width: 992px) {
+      #join .partner {
+        margin-top: 40px; } }
     #join .partner .wrapper {
-      width: 60%;
-      padding: 0;
+      width: 100%;
+      padding: 0 28px;
       margin: 0 auto; }
+      @media (min-width: 992px) {
+        #join .partner .wrapper {
+          width: 60%; } }
       #join .partner .wrapper .email {
         float: left; }
         #join .partner .wrapper .email svg {
@@ -680,25 +775,59 @@ body {
         color: #FFF;
         float: left;
         font-weight: 800;
-        font-size: 1.5vw;
-        margin-left: 2%;
-        padding-top: 18px; }
+        font-size: 20px;
+        margin-left: 24px;
+        padding: 9px 0;
+        width: 70%; }
+        @media (min-width: 992px) {
+          #join .partner .wrapper span {
+            font-size: 1.5vw;
+            width: 100%;
+            margin-left: 2%;
+            padding-top: 18px; } }
   #join .wrapper {
     padding-top: 60px; }
-    #join .wrapper .image-wrapper {
-      width: 50%;
+    #join .wrapper .image-wrapper-top {
+      width: 35%;
+      float: left;
+      position: relative; }
+      @media (min-width: 992px) {
+        #join .wrapper .image-wrapper-top {
+          width: 50%; } }
+      #join .wrapper .image-wrapper-top img {
+        width: 650px;
+        position: absolute;
+        left: -508px; }
+        @media (min-width: 992px) {
+          #join .wrapper .image-wrapper-top img {
+            width: 100%; } }
+    #join .wrapper .image-wrapper-bottom {
+      width: 35%;
       float: left; }
-      #join .wrapper .image-wrapper img {
-        width: 100%; }
+      @media (min-width: 992px) {
+        #join .wrapper .image-wrapper-bottom {
+          width: 50%; } }
+      #join .wrapper .image-wrapper-bottom img {
+        width: 650px; }
+        @media (min-width: 992px) {
+          #join .wrapper .image-wrapper-bottom img {
+            width: 100%; } }
     #join .wrapper .text-wrapper {
-      width: 50%;
+      width: 65%;
       float: right; }
+      @media (min-width: 992px) {
+        #join .wrapper .text-wrapper {
+          width: 50%; } }
       #join .wrapper .text-wrapper span {
         padding-left: 25px;
-        font-size: 2vw;
         font-weight: 800;
         display: block;
-        line-height: 1.5vw; }
+        font-size: 20px;
+        line-height: 22px; }
+        @media (min-width: 992px) {
+          #join .wrapper .text-wrapper span {
+            font-size: 2vw;
+            line-height: 1.5vw; } }
         #join .wrapper .text-wrapper span a {
           color: #0000ff; }
           #join .wrapper .text-wrapper span a:hover, #join .wrapper .text-wrapper span a:active {
@@ -707,8 +836,11 @@ body {
         #join .wrapper .text-wrapper span.top {
           padding-bottom: 7%; }
         #join .wrapper .text-wrapper span.bottom {
-          line-height: 2.5vw;
+          line-height: 22px;
           font-weight: 500; }
+          @media (min-width: 992px) {
+            #join .wrapper .text-wrapper span.bottom {
+              line-height: 2.5vw; } }
     #join .wrapper:nth-child(2) .image-wrapper {
       float: right; }
     #join .wrapper:nth-child(2) .text-wrapper {
@@ -722,17 +854,28 @@ body {
   padding-bottom: 30px;
   color: #FFF;
   font-weight: 500;
-  font-size: 2vw; }
+  font-size: 20px; }
+  @media (min-width: 992px) {
+    .footer {
+      font-size: 2vw; } }
   .footer .left {
-    padding-top: 60px;
+    padding-top: 28px;
     float: left;
-    padding-left: 76px; }
+    padding-left: 28px; }
+    @media (min-width: 992px) {
+      .footer .left {
+        padding-top: 60px;
+        padding-left: 76px; } }
     .footer .left span {
       display: block; }
   .footer .right {
-    float: right;
-    padding-top: 60px;
-    padding-right: 76px; }
+    float: left;
+    padding-left: 28px; }
+    @media (min-width: 992px) {
+      .footer .right {
+        padding-right: 28px;
+        padding-top: 60px;
+        float: right; } }
     .footer .right a {
       display: block;
       color: #FFF; }

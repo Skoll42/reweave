@@ -6,12 +6,27 @@ Template Name: Join us Page
 
 <?php get_header(); ?>
 <div class="section" id="join">
-    <div class="who-text">
-        <span><?php the_field('join_text'); ?></span>
+    <div class="join hidden-xs">
+        <div class="who-text">
+            <span><?php the_field('join_text'); ?></span>
+        </div>
+        <div class="lines">
+            <div class="image-wrapper">
+                <img src="<?php echo get_stylesheet_directory_uri()?>/img/mainpagelines.svg" />
+            </div>
+        </div>
     </div>
-    <div class="lines">
-        <div class="image-wrapper">
-            <img src="<?php echo get_stylesheet_directory_uri()?>/img/mainpagelines.svg" />
+    <div class="join-mobile visible-xs">
+        <div class="h1-wrapper">
+            <h1>JOIN US</h1>
+        </div>
+        <div class="lines">
+            <div class="image-wrapper">
+                <img src="<?php echo get_stylesheet_directory_uri()?>/img/mainpagelines.svg" />
+                <div class="who-text">
+                    <span><?php the_field('join_text'); ?></span>
+                </div>
+            </div>
         </div>
     </div>
     <div class="clearfix"></div>
@@ -24,7 +39,7 @@ Template Name: Join us Page
     </div>
     <div class="emails">
         <div class="wrapper">
-            <div class="image-wrapper">
+            <div class="image-wrapper-top">
                 <img src="<?php echo get_stylesheet_directory_uri()?>/img/lines_page_2.svg" />
             </div>
             <div class="text-wrapper">
@@ -38,7 +53,7 @@ Template Name: Join us Page
                 <span class="top"><a href="mailto:BART@ENVIU.ORG">BART@ENVIU.ORG</a></span>
                 <span class="bottom">APPAREL SINGLE ISSUE<br />INVESTMENT FUND</span>
             </div>
-            <div class="image-wrapper">
+            <div class="image-wrapper-bottom">
                 <img src="<?php echo get_stylesheet_directory_uri()?>/img/lines_page_2.svg" />
             </div>
             <div class="clearfix"></div>
@@ -54,6 +69,7 @@ Template Name: Join us Page
     <div class="right">
         <a href="reveave.enviu.org" target="_blank">reveave.enviu.org</a>
         <a href="enviu.org" target="_blank">enviu.org</a>
+        <img src="<?php echo get_stylesheet_directory_uri()?>/img/enviu_logo.svg" />
     </div>
     <div class="clearfix"></div>
 </div>
