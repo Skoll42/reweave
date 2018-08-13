@@ -15,7 +15,6 @@
         <nav class="navbar navbar-fixed-top">
             <div class="navbar-header">
                 <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
-                    <span class="sr-only">Toggle navigation</span>
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
@@ -31,6 +30,9 @@
                             'menu_class' => 'nav navbar-nav',
                             'container' => false,
                         ) ); ?>
+                <div class="menu-image-wrapper visible-xs">
+                    <img src="<?php echo get_stylesheet_directory_uri()?>/img/mainpagelines.svg" />
+                </div>
             </div>
         </nav>
     </div>
