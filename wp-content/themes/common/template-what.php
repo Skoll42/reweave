@@ -32,10 +32,11 @@ Template Name: What we are doing Page
                 <?php if($circle['what_partner_website_url']) : ?>
                     </a>
                 <?php endif; ?>
-                <?php if($curr % 4 == 0): ?>
+                <?php if($curr % 3 == 0): ?>
                     <div class="clearfix"></div>
                 <?php endif; ?>
             <?php endforeach;?>
+            <div class="clearfix"></div>
         </div>
     <?php endif; ?>
 

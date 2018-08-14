@@ -22,7 +22,7 @@ Template Name: Methodology Page
                 </div>
                 <div class="half-block">
                     <div class="title">
-                        <h1>IMPACT <br />INVESTMENT FUND</h1>
+                        <h1><span class="underline">INVESTMENT COMMUNITY</span></h1>
                     </div>
                     <div class="text">
                         <?php the_field('methodology_impact_investment_fund_text'); ?>
@@ -44,7 +44,7 @@ Template Name: Methodology Page
         </div>
         <div class="right-block">
             <div class="flower">
-                <img src="<?php echo get_stylesheet_directory_uri()?>/img/methodology.svg" />
+                <img src="<?php echo get_stylesheet_directory_uri()?>/img/fflower.svg" />
             </div>
         </div>
         <div class="clearfix"></div>
@@ -60,7 +60,7 @@ Template Name: Methodology Page
         </div>
         <div class="mobile-block">
             <div class="title">
-                <h1>IMPACT <br /><span class="underline">INVESTMENT FUND</span></h1>
+                <h1>INVESTMENT<br /><span class="underline">COMMUNITY</span></h1>
             </div>
             <div class="text">
                 <?php the_field('methodology_impact_investment_fund_text'); ?>
@@ -75,7 +75,7 @@ Template Name: Methodology Page
             </div>
         </div>
         <div class="flower">
-            <img src="<?php echo get_stylesheet_directory_uri()?>/img/flower.svg" />
+            <img src="<?php echo get_stylesheet_directory_uri()?>/img/fflower.svg" />
         </div>
     </div>
 </div>

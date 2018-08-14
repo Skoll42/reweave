@@ -1,11 +1,11 @@
 {
-    "key": "group_5b4e5e6b11b05",
-    "title": "Who we are",
+    "key": "group_5b676be3592bd",
+    "title": "Why is this needed",
     "fields": [
         {
-            "key": "field_5b4e5e8fd36bc",
-            "label": "Who we are",
-            "name": "who_we_are",
+            "key": "field_5b676be3b59f9",
+            "label": "Why is this needed",
+            "name": "why_top_text",
             "type": "textarea",
             "instructions": "",
             "required": 1,
@@ -24,51 +24,9 @@
             "disabled": 0
         },
         {
-            "key": "field_5b502fea51b0f",
-            "label": "Right Text Top",
-            "name": "who_right_text_top",
-            "type": "text",
-            "instructions": "",
-            "required": 1,
-            "conditional_logic": 0,
-            "wrapper": {
-                "width": "",
-                "class": "",
-                "id": ""
-            },
-            "default_value": "",
-            "placeholder": "",
-            "prepend": "",
-            "append": "",
-            "maxlength": "",
-            "readonly": 0,
-            "disabled": 0
-        },
-        {
-            "key": "field_5b50303a51b10",
-            "label": "Right Text Bottom",
-            "name": "who_right_text_bottom",
-            "type": "text",
-            "instructions": "",
-            "required": 1,
-            "conditional_logic": 0,
-            "wrapper": {
-                "width": "",
-                "class": "",
-                "id": ""
-            },
-            "default_value": "",
-            "placeholder": "",
-            "prepend": "",
-            "append": "",
-            "maxlength": "",
-            "readonly": 0,
-            "disabled": 0
-        },
-        {
-            "key": "field_5b50306151b11",
-            "label": "Circles",
-            "name": "who_circles",
+            "key": "field_5b676be3b5b4e",
+            "label": "ENVIRONMENTAL ISSUES",
+            "name": "whys_ei",
             "type": "repeater",
             "instructions": "",
             "required": 1,
@@ -85,12 +43,12 @@
             "button_label": "Add Circle",
             "sub_fields": [
                 {
-                    "key": "field_5b6769eee5d9d",
+                    "key": "field_5b676be42eaed",
                     "label": "Background Image",
-                    "name": "who_bg_image",
+                    "name": "why_ei_bg_image",
                     "type": "image",
-                    "instructions": "SVG File",
-                    "required": 0,
+                    "instructions": "SVG Image",
+                    "required": 1,
                     "conditional_logic": 0,
                     "wrapper": {
                         "width": "",
@@ -106,12 +64,99 @@
                     "max_width": "",
                     "max_height": "",
                     "max_size": "",
-                    "mime_types": "svg"
+                    "mime_types": ""
                 },
                 {
-                    "key": "field_5b50309451b12",
-                    "label": "Text in cirlcle",
-                    "name": "who_text_in_cirlcle",
+                    "key": "field_5b676be42eb5a",
+                    "label": "Circle Block Title",
+                    "name": "why_ei_text_title",
+                    "type": "text",
+                    "instructions": "",
+                    "required": 0,
+                    "conditional_logic": 0,
+                    "wrapper": {
+                        "width": "",
+                        "class": "",
+                        "id": ""
+                    },
+                    "default_value": "",
+                    "placeholder": "",
+                    "prepend": "",
+                    "append": "",
+                    "maxlength": "",
+                    "readonly": 0,
+                    "disabled": 0
+                },
+                {
+                    "key": "field_5b676be42ebc5",
+                    "label": "Circle Block Description",
+                    "name": "why_ei_text",
+                    "type": "textarea",
+                    "instructions": "",
+                    "required": 1,
+                    "conditional_logic": 0,
+                    "wrapper": {
+                        "width": "",
+                        "class": "",
+                        "id": ""
+                    },
+                    "default_value": "",
+                    "placeholder": "",
+                    "maxlength": "",
+                    "rows": "",
+                    "new_lines": "br",
+                    "readonly": 0,
+                    "disabled": 0
+                }
+            ]
+        },
+        {
+            "key": "field_5b676d941f59f",
+            "label": "SOCIAL ISSUES",
+            "name": "whys_si",
+            "type": "repeater",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "collapsed": "",
+            "min": "",
+            "max": "",
+            "layout": "table",
+            "button_label": "Add Row",
+            "sub_fields": [
+                {
+                    "key": "field_5b676dc51f5a0",
+                    "label": "Background Image",
+                    "name": "why_si_bg_image",
+                    "type": "image",
+                    "instructions": "SVG Image",
+                    "required": 1,
+                    "conditional_logic": 0,
+                    "wrapper": {
+                        "width": "",
+                        "class": "",
+                        "id": ""
+                    },
+                    "return_format": "url",
+                    "preview_size": "full",
+                    "library": "all",
+                    "min_width": "",
+                    "min_height": "",
+                    "min_size": "",
+                    "max_width": "",
+                    "max_height": "",
+                    "max_size": "",
+                    "mime_types": ""
+                },
+                {
+                    "key": "field_5b676e161f5a1",
+                    "label": "Circle Block Title",
+                    "name": "why_si_text_title",
                     "type": "text",
                     "instructions": "",
                     "required": 1,
@@ -130,30 +175,9 @@
                     "disabled": 0
                 },
                 {
-                    "key": "field_5b5030ba51b13",
-                    "label": "Circle Block Title",
-                    "name": "who_circle_block_title",
-                    "type": "text",
-                    "instructions": "",
-                    "required": 0,
-                    "conditional_logic": 0,
-                    "wrapper": {
-                        "width": "",
-                        "class": "",
-                        "id": ""
-                    },
-                    "default_value": "",
-                    "placeholder": "",
-                    "prepend": "",
-                    "append": "",
-                    "maxlength": "",
-                    "readonly": 0,
-                    "disabled": 0
-                },
-                {
-                    "key": "field_5b5030da51b14",
+                    "key": "field_5b676e401f5a2",
                     "label": "Circle Block Description",
-                    "name": "who_circle_block_description",
+                    "name": "why_si_text",
                     "type": "textarea",
                     "instructions": "",
                     "required": 1,
@@ -179,7 +203,7 @@
             {
                 "param": "page",
                 "operator": "==",
-                "value": "10"
+                "value": "16"
             }
         ]
     ],
@@ -207,5 +231,5 @@
     ],
     "active": 1,
     "description": "",
-    "modified": 1533504081
+    "modified": 1533505735
 }

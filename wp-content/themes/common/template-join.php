@@ -38,33 +38,36 @@ Template Name: Join us Page
         </div>
     </div>
     <div class="emails">
+        <?php if(get_field('join_first_employee_email')) : ?>
         <div class="wrapper">
             <div class="image-wrapper-top">
                 <img src="<?php echo get_stylesheet_directory_uri()?>/img/lines_page_2.svg" />
             </div>
             <div class="text-wrapper">
-                <span class="top"><a href="mailto:RUBIE@ENVIU.ORG">RUBIE@ENVIU.ORG</a></span>
-                <span class="bottom">VENTURE BUILDING ACTIVITIES & <br />SYSTEM CHANGE</span>
+                <span class="top"><a href="mailto:<?php the_field('join_first_employee_email'); ?>"><?php the_field('join_first_employee_email'); ?></a></span>
+                <span class="bottom"><?php the_field('join_first_employee_position'); ?></span>
             </div>
             <div class="clearfix"></div>
         </div>
+        <?php endif; ?>
+        <?php if(get_field('join_second_employee_email')) : ?>
         <div class="wrapper">
             <div class="text-wrapper">
-                <span class="top"><a href="mailto:BART@ENVIU.ORG">BART@ENVIU.ORG</a></span>
-                <span class="bottom">APPAREL SINGLE ISSUE<br />INVESTMENT FUND</span>
+                <span class="top"><a href="mailto:<?php the_field('join_second_employee_email'); ?>"><?php the_field('join_second_employee_email'); ?></a></span>
+                <span class="bottom"><?php the_field('join_second_employee_position'); ?></span>
             </div>
             <div class="image-wrapper-bottom">
                 <img src="<?php echo get_stylesheet_directory_uri()?>/img/lines_page_2.svg" />
             </div>
             <div class="clearfix"></div>
         </div>
+        <?php endif; ?>
     </div>
 </div>
 <div class="footer">
     <div class="left">
-        <span>ADRESS ADRESS ADRESS</span>
-        <span>CITY CITY</span>
-        <span>+5647843392</span>
+        <span><?php the_field('join_address'); ?></span>
+        <span><?php the_field('join_telephone'); ?></span>
     </div>
     <div class="right">
         <a href="reveave.enviu.org" target="_blank">reveave.enviu.org</a>
