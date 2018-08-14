@@ -168,22 +168,7 @@ body {
 
 				@media (min-width: $screen-md-min) {
 					font-size: 2.2vw;
-					line-height: 1.5vw;
-				}
-
-				&.top {
-					padding-bottom: 22px;
-
-					@media (min-width: $screen-md-min) {
-						padding-bottom: 4%;
-					}
-				}
-
-				&.bottom {
-					line-height: 20px;
-					@media (min-width: $screen-md-min) {
-						line-height: 2.4vw;
-					}
+					line-height: 2.4vw;
 				}
 			}
 		}
@@ -656,10 +641,16 @@ body {
 		padding: 65px 0;
 
 		.h1-wrapper {
-			width: 140px;
+			width: 200px;
 			height: 35px;
-			margin-left: 60px;
+			margin-left: 28px;
 			position: relative;
+			margin-bottom: 10px;
+
+			@media (min-width: $screen-md-min) {
+				margin-left: 60px;
+				margin-bottom: 25px;
+			}
 
 			h1 {
 				position: absolute;
