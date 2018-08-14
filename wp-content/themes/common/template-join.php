@@ -67,7 +67,7 @@ Template Name: Join us Page
 <div class="footer">
     <div class="left">
         <span><?php the_field('join_address'); ?></span>
-        <span><?php the_field('join_telephone'); ?></span>
+        <a href="tel:<?php the_field('join_telephone'); ?>" target="_blank"><span><?php the_field('join_telephone'); ?></span></a>
     </div>
     <div class="right">
         <a href="http://reweave.enviu.org/" target="_blank">reweave.enviu.org</a>

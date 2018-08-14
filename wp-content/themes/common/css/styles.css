@@ -890,6 +890,7 @@ body {
       display: block;
       color: #FFF; }
       .footer .right a:hover, .footer .right a:active {
-        color: #FFF; }
+        color: #FFF;
+        text-decoration: none; }
 
 /*# sourceMappingURL=styles.css.map */
