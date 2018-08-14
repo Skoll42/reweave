@@ -2,14 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="bee4f4d7-804d-4ff1-82f3-97dc06894d30" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/wp-content/themes/common/css/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/common/css/styles.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/wp-content/themes/common/css/styles.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/common/css/styles.css.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/themes/common/img/flower.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/themes/common/scss/_main.scss" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/common/scss/_main.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/themes/common/template-join.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/common/template-join.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/themes/common/template-methodology.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/common/template-methodology.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/themes/common/template-what.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/common/template-what.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/common/scss/_footer.scss" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/common/scss/_footer.scss" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -20,11 +15,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="template-join.php" pinned="false" current-in-tab="true">
+      <file leaf-file-name="template-join.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/wp-content/themes/common/template-join.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="822">
-              <caret line="69" column="56" lean-forward="true" selection-start-line="69" selection-start-column="56" selection-end-line="69" selection-end-column="56" />
+            <state relative-caret-position="771">
+              <caret line="66" column="19" lean-forward="true" selection-start-line="66" selection-start-column="19" selection-end-line="66" selection-end-column="19" />
             </state>
           </provider>
         </entry>
@@ -56,11 +51,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="_footer.scss" pinned="false" current-in-tab="false">
+      <file leaf-file-name="_footer.scss" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/wp-content/themes/common/scss/_footer.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="476">
-              <caret line="28" column="27" selection-start-line="28" selection-start-column="27" selection-end-line="28" selection-end-column="27" />
+            <state relative-caret-position="391">
+              <caret line="23" column="37" selection-start-line="23" selection-start-column="37" selection-end-line="23" selection-end-column="37" />
             </state>
           </provider>
         </entry>
@@ -157,11 +152,11 @@
         <option value="$PROJECT_DIR$/wp-content/themes/common/header.php" />
         <option value="$PROJECT_DIR$/wp-content/themes/common/scss/_header.scss" />
         <option value="$PROJECT_DIR$/wp-content/themes/common/template-out-dream.php" />
-        <option value="$PROJECT_DIR$/wp-content/themes/common/scss/_footer.scss" />
         <option value="$PROJECT_DIR$/wp-content/themes/common/template-methodology.php" />
         <option value="$PROJECT_DIR$/wp-content/themes/common/template-what.php" />
         <option value="$PROJECT_DIR$/wp-content/themes/common/scss/_main.scss" />
         <option value="$PROJECT_DIR$/wp-content/themes/common/template-join.php" />
+        <option value="$PROJECT_DIR$/wp-content/themes/common/scss/_footer.scss" />
       </list>
     </option>
   </component>
@@ -217,14 +212,6 @@
               <item name="wp-content" type="462c0819:PsiDirectoryNode" />
               <item name="themes" type="462c0819:PsiDirectoryNode" />
               <item name="common" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="reweave" type="b2602c69:ProjectViewProjectNode" />
-              <item name="reweave" type="462c0819:PsiDirectoryNode" />
-              <item name="wp-content" type="462c0819:PsiDirectoryNode" />
-              <item name="themes" type="462c0819:PsiDirectoryNode" />
-              <item name="common" type="462c0819:PsiDirectoryNode" />
-              <item name="acf-json" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="reweave" type="b2602c69:ProjectViewProjectNode" />
@@ -317,12 +304,12 @@
       <workItem from="1533907526741" duration="600000" />
       <workItem from="1534086394612" duration="15450000" />
       <workItem from="1534162183564" duration="9180000" />
-      <workItem from="1534270739975" duration="3474000" />
+      <workItem from="1534270739975" duration="4101000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="118941000" />
+    <option name="totallyTimeSpent" value="119568000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="23" width="2208" height="1218" extended-state="6" />
@@ -511,13 +498,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/themes/common/scss/_footer.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="476">
-          <caret line="28" column="27" selection-start-line="28" selection-start-column="27" selection-end-line="28" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/wp-content/themes/common/template-methodology.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="870">
@@ -541,8 +521,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/wp-content/themes/common/template-join.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="822">
-          <caret line="69" column="56" lean-forward="true" selection-start-line="69" selection-start-column="56" selection-end-line="69" selection-end-column="56" />
+        <state relative-caret-position="771">
+          <caret line="66" column="19" lean-forward="true" selection-start-line="66" selection-start-column="19" selection-end-line="66" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/common/scss/_footer.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="391">
+          <caret line="23" column="37" selection-start-line="23" selection-start-column="37" selection-end-line="23" selection-end-column="37" />
         </state>
       </provider>
     </entry>
