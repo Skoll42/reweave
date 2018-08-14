@@ -875,6 +875,12 @@ body {
       .footer .left {
         padding-top: 60px;
         padding-left: 76px; } }
+    .footer .left a {
+      display: block;
+      color: #FFF; }
+      .footer .left a:hover, .footer .left a:active {
+        color: #FFF;
+        text-decoration: none; }
     .footer .left span {
       display: block;
       text-transform: uppercase; }

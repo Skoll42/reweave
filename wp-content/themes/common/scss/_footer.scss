@@ -19,6 +19,14 @@
             padding-top: 60px;
             padding-left: 76px;
         }
+        a {
+            display: block;
+            color: #FFF;
+            &:hover, &:active {
+                color: #FFF;
+                text-decoration: none;
+            }
+        }
         span {
             display: block;
             text-transform: uppercase;
