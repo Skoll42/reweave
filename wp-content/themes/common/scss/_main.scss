@@ -74,7 +74,7 @@ body {
 		}
 
 		.h1-wrapper {
-			width: 140px;
+			width: 200px;
 			height: 35px;
 			margin-left: 28px;
 			position: relative;
@@ -769,10 +769,15 @@ body {
 	}
 
 	.who-text {
-		padding-left: 60px;
+		padding-left: 0;
 		width: 65%;
 		top: 205px;
 		position: absolute;
+
+		@media (min-width: $screen-md-min) {
+			padding-left: 60px;
+		}
+
 		span {
 			font-size: 5.75vw;
 			font-weight: 800;

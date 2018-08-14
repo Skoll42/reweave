@@ -19,8 +19,7 @@ Template Name: Who we are Page
             <img src="<?php echo get_stylesheet_directory_uri()?>/img/lines_page_2.svg" />
         </div>
         <div class="text-wrapper">
-            <span class="top"><?php the_field('who_right_text_top');?></span>
-            <span class="bottom"><?php the_field('who_right_text_bottom');?></span>
+            <span class="top"><?php the_field('who_right_text');?></span>
         </div>
         <div class="clearfix"></div>
     </div>

@@ -196,7 +196,7 @@ body {
       #who .who-we-are {
         padding: 40px 0; } }
     #who .who-we-are .h1-wrapper {
-      width: 140px;
+      width: 200px;
       height: 35px;
       margin-left: 28px;
       position: relative;
@@ -701,10 +701,13 @@ body {
     #join {
       padding-top: 140px; } }
   #join .who-text {
-    padding-left: 60px;
+    padding-left: 0;
     width: 65%;
     top: 205px;
     position: absolute; }
+    @media (min-width: 992px) {
+      #join .who-text {
+        padding-left: 60px; } }
     #join .who-text span {
       font-size: 5.75vw;
       font-weight: 800; }
