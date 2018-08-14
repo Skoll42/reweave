@@ -70,7 +70,7 @@ Template Name: Join us Page
         <span><?php the_field('join_telephone'); ?></span>
     </div>
     <div class="right">
-        <a href="https://reweave.enviu.org/" target="_blank">reweave.enviu.org</a>
+        <a href="http://reweave.enviu.org/" target="_blank">reweave.enviu.org</a>
         <a href="https://enviu.org/" target="_blank">enviu.org</a>
         <img src="<?php echo get_stylesheet_directory_uri()?>/img/enviu_logo.svg" />
     </div>
