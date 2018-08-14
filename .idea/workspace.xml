@@ -2,9 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="bee4f4d7-804d-4ff1-82f3-97dc06894d30" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/wp-content/themes/common/css/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/common/css/styles.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/themes/common/css/styles.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/common/css/styles.css.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/themes/common/scss/_footer.scss" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/common/scss/_footer.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/common/template-join.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/common/template-join.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -15,11 +13,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="template-join.php" pinned="false" current-in-tab="false">
+      <file leaf-file-name="template-join.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/wp-content/themes/common/template-join.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="771">
-              <caret line="66" column="19" lean-forward="true" selection-start-line="66" selection-start-column="19" selection-end-line="66" selection-end-column="19" />
+            <state relative-caret-position="890">
+              <caret line="73" column="35" selection-start-line="73" selection-start-column="35" selection-end-line="73" selection-end-column="35" />
             </state>
           </provider>
         </entry>
@@ -51,7 +49,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="_footer.scss" pinned="false" current-in-tab="true">
+      <file leaf-file-name="_footer.scss" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/wp-content/themes/common/scss/_footer.scss">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="391">
@@ -155,8 +153,8 @@
         <option value="$PROJECT_DIR$/wp-content/themes/common/template-methodology.php" />
         <option value="$PROJECT_DIR$/wp-content/themes/common/template-what.php" />
         <option value="$PROJECT_DIR$/wp-content/themes/common/scss/_main.scss" />
-        <option value="$PROJECT_DIR$/wp-content/themes/common/template-join.php" />
         <option value="$PROJECT_DIR$/wp-content/themes/common/scss/_footer.scss" />
+        <option value="$PROJECT_DIR$/wp-content/themes/common/template-join.php" />
       </list>
     </option>
   </component>
@@ -304,12 +302,12 @@
       <workItem from="1533907526741" duration="600000" />
       <workItem from="1534086394612" duration="15450000" />
       <workItem from="1534162183564" duration="9180000" />
-      <workItem from="1534270739975" duration="4101000" />
+      <workItem from="1534270739975" duration="4205000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="119568000" />
+    <option name="totallyTimeSpent" value="119672000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="23" width="2208" height="1218" extended-state="6" />
@@ -477,20 +475,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/themes/common/footer.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="3" column="41" lean-forward="true" selection-start-line="3" selection-start-column="41" selection-end-line="3" selection-end-column="41" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/themes/common/scss/_variables.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" selection-start-line="2" selection-end-line="2" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/wp-content/themes/common/themplate-who.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="391">
@@ -519,17 +503,31 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/themes/common/template-join.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="771">
-          <caret line="66" column="19" lean-forward="true" selection-start-line="66" selection-start-column="19" selection-end-line="66" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/wp-content/themes/common/scss/_footer.scss">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="391">
           <caret line="23" column="37" selection-start-line="23" selection-start-column="37" selection-end-line="23" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/common/footer.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" column="41" lean-forward="true" selection-start-line="3" selection-start-column="41" selection-end-line="3" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/common/scss/_variables.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" selection-start-line="2" selection-end-line="2" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/common/template-join.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="890">
+          <caret line="73" column="35" selection-start-line="73" selection-start-column="35" selection-end-line="73" selection-end-column="35" />
         </state>
       </provider>
     </entry>
