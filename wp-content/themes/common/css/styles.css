@@ -71,6 +71,7 @@
         float: right; } }
     .header #navbar .navbar-nav li {
       text-align: center;
+      text-align: -webkit-center;
       width: auto; }
       .header #navbar .navbar-nav li:last-child {
         margin-right: 0; }
@@ -84,6 +85,7 @@
         line-height: normal;
         letter-spacing: normal;
         text-align: center;
+        text-align: -webkit-center;
         text-transform: uppercase;
         padding: 9px 0 9px 0; }
         @media (min-width: 992px) {
@@ -304,6 +306,7 @@ body {
           line-height: 20px;
           font-size: 18px;
           text-align: center;
+          text-align: -webkit-center;
           font-weight: 800;
           color: #0000ff;
           text-transform: uppercase;
@@ -398,6 +401,7 @@ body {
           line-height: 20px;
           font-size: 18px;
           text-align: center;
+          text-align: -webkit-center;
           font-weight: 800;
           color: #0000ff;
           text-transform: uppercase;
