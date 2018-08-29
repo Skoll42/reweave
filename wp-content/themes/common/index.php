@@ -1,1 +1,1 @@
-<?php get_template_part('header','common'); ?>
+<?php get_template_part('header','common'); ?>

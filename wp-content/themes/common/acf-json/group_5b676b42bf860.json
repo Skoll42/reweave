@@ -83,7 +83,7 @@
                     "key": "field_5b676b433cdf3",
                     "label": "Circle Block Description",
                     "name": "what_circle_block_description",
-                    "type": "textarea",
+                    "type": "wysiwyg",
                     "instructions": "",
                     "required": 1,
                     "conditional_logic": 0,
@@ -93,12 +93,9 @@
                         "id": ""
                     },
                     "default_value": "",
-                    "placeholder": "",
-                    "maxlength": "",
-                    "rows": "",
-                    "new_lines": "br",
-                    "readonly": 0,
-                    "disabled": 0
+                    "tabs": "all",
+                    "toolbar": "full",
+                    "media_upload": 1
                 }
             ]
         }
@@ -136,5 +133,5 @@
     ],
     "active": 1,
     "description": "",
-    "modified": 1533512155
+    "modified": 1535467958
 }
